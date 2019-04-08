@@ -1,4 +1,4 @@
-package Bitmasking;
+package src.Bitmasking;
 public class BasicOp {
 
     // O(log N)

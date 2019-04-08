@@ -1,3 +1,5 @@
+package src.Graphs;
+
 import java.util.LinkedList;
 
 // Adjacency List implementation of Graph for nodes with integer values

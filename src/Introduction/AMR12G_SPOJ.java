@@ -1,3 +1,5 @@
+package src.Introduction;
+
 // https://www.spoj.com/problems/AMR12G/
 
 import java.io.BufferedReader;

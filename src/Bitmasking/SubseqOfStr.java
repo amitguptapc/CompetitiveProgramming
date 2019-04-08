@@ -1,3 +1,5 @@
+package src.Bitmasking;
+
 // print all sub sequences of a given string.
 
 import java.util.Scanner;

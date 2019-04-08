@@ -1,3 +1,5 @@
+package src.Bitmasking;
+
 import java.util.Scanner;
 
 public class EvenOdd {

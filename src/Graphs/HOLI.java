@@ -1,4 +1,4 @@
-package Graphs;
+package src.Graphs;
 
 //https://www.spoj.com/problems/HOLI/
 // (Holiday Accommodation) it requires application of  Pigeonhole principle

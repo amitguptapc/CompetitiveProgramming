@@ -1,4 +1,4 @@
-package Graphs;
+package src.Graphs;
 
 // Topological Sort using BFS is done using Kahn's Algorithm
 

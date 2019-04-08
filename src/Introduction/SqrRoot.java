@@ -1,3 +1,5 @@
+package src.Introduction;
+
 // Find square root of a number using Binary Search
 
 import java.util.Scanner;

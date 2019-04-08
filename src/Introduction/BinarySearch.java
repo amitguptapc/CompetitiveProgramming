@@ -1,3 +1,5 @@
+package src.Introduction;
+
 public class BinarySearch {
     private static int binSearch1(int a[], int k) {
         int low = 0, high = a.length - 1, mid;

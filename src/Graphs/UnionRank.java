@@ -1,4 +1,4 @@
-package Graphs;
+package src.Graphs;
 
 // used to detect cycle in a graph
 public class UnionRank<T> extends Graph<T> {

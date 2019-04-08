@@ -1,3 +1,5 @@
+package src.Bitmasking;
+
 // https://hack.codingblocks.com/contests/c/366/135
 
 import java.util.Scanner;

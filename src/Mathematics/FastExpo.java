@@ -1,3 +1,5 @@
+package src.Mathematics;
+
 import java.util.Scanner;
 
 // Complexity O(log b)

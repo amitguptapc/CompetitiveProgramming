@@ -1,3 +1,5 @@
+package src.Introduction;
+
 // Find all increasing sequences with length 6
 
 public class Lotto {

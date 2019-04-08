@@ -1,3 +1,5 @@
+package src.Bitmasking;
+
 // https://www.codechef.com/problems/MARCHA1
 
 import java.util.Scanner;

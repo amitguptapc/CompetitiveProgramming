@@ -1,4 +1,4 @@
-package Graphs;
+package src.Graphs;
 
 public class ConnectedComponent<T> extends DFS<T> {
     public void connectedComponent(T src) {

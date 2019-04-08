@@ -1,4 +1,4 @@
-package Graphs;
+package src.Graphs;
 
 public class FloodFill {
     private static void floodFill(char[][] grid, int m, int n, int i, int j, char prev, char color) {

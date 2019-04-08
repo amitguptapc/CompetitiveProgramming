@@ -1,3 +1,5 @@
+package src.Mathematics;
+
 import java.util.Scanner;
 
 public class DivSubarray {

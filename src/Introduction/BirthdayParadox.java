@@ -1,3 +1,5 @@
+package src.Introduction;
+
 import java.util.Scanner;
 
 //Find no of people required in a room such that probability of 2 person having same birthday is 'prob'

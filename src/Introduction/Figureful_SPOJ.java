@@ -1,3 +1,5 @@
+package src.Introduction;
+
 // https://www.spoj.com/problems/ACMCEG2B/
 
 import java.io.BufferedReader;

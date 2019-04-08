@@ -1,3 +1,5 @@
+package src.Bitmasking;
+
 // Print all possible solutions of N-Queen Problem using Bit sets.
 
 import java.util.BitSet;

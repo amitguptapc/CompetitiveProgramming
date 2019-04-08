@@ -1,3 +1,5 @@
+package src.Graphs;
+
 import Graphs.Graph;
 
 public class Demo {
