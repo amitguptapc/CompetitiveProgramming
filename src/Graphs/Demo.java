@@ -1,10 +1,8 @@
 package src.Graphs;
 
-import Graphs.Graph;
-
 public class Demo {
     public static void main(String[] args) {
-        Graph<Integer> g = new Graph<>();
+        src.Graphs.Graph<Integer> g = new src.Graphs.Graph<Integer>();
         g.addEdge(0, 1, true);
         g.addEdge(0, 4, false);
         g.addEdge(1, 2, true);

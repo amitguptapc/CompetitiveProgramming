@@ -3,7 +3,7 @@ package src.Graphs;
 import java.util.ArrayList;
 
 // cycle is detected in undirected graph using dfs
-public class CycleDetectionDFS<T> extends Graph<T> {
+public class CycleDetectionDFS<T> extends src.Graphs.Graph<T> {
     private boolean isCyclicHelper(T node, T parent, ArrayList<T> visited) {
         visited.add(node);
         for (T neighbour : adjList.get(node)) {
