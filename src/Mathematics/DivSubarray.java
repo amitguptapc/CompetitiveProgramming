@@ -6,25 +6,22 @@ public class DivSubarray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        while (t > 0) {
+        while (t-- > 0) {
             int n = sc.nextInt();
-            long preSum[] = new long[n + 1];
-            preSum[0] = 1;
-            long val;
-            long sum = 0;
+            long[] prefixSum = new long[n];
+            prefixSum[0] = 1;
+            long num, sum = 0;
             for (int i = 0; i < n; i++) {
-                val = sc.nextInt();
-                sum += val;
+                num = sc.nextLong();
+                sum += num;
                 sum %= n;
                 sum = (sum + n) % n;
-                preSum[(int) sum]++;
+                prefixSum[(int) sum]++;
             }
-            long res = 0;
-            for (int i = 0; i <= n; i++) {
-                res += (preSum[i] * (preSum[i] - 1)) / 2;
-            }
-            System.out.println(res);
-            t--;
+            long ans = 0;
+            for (int i = 0; i < n; i++)
+                ans += ((prefixSum[i] - 1) * prefixSum[i]) / 2;
+            System.out.println(ans);
         }
     }
 }

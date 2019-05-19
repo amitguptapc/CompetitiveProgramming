@@ -29,10 +29,9 @@ public class SEQ_Spoj {
             return 0;
         if (n <= k)
             return b[n - 1];
-        long f1[] = new long[k];
-        for (int i = 0; i < k; i++)
-            f1[i] = b[i];
-        long t[][] = new long[k][k];
+        long[] f1 = new long[k];
+        System.arraycopy(b, 0, f1, 0, k);
+        long[][] t = new long[k][k];
         for (int i = 0; i < k; i++) {
             for (int j = 0; j < k; j++) {
                 if (i < k - 1) {
@@ -52,19 +51,19 @@ public class SEQ_Spoj {
         return res;
     }
 
-    private static long[][] power(long a[][], int n) {
+    private static long[][] power(long[][] a, int n) {
         if (n == 1)
             return a;
         if ((n & 1) == 1)
             return multiply(a, power(a, n - 1));
         else {
-            long x[][] = power(a, n / 2);
+            long[][] x = power(a, n / 2);
             return multiply(x, x);
         }
     }
 
-    private static long[][] multiply(long a[][], long b[][]) {
-        long c[][] = new long[k][k];
+    private static long[][] multiply(long[][] a, long[][] b) {
+        long[][] c = new long[k][k];
         for (int i = 0; i < k; i++)
             for (int j = 0; j < k; j++)
                 for (int l = 0; l < k; l++)

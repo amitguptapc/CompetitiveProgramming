@@ -1,37 +1,38 @@
 import java.util.Scanner;
 
 public class BostonNum {
-    private static int factorSum(int n) {
-        int sum = 0;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long num = sc.nextInt();
+        if (digitSum(num) == primeFactors(num))
+            System.out.println(1);
+        else System.out.println(0);
+    }
+
+    private static long digitSum(long num) {
+        long s2 = 0;
+        while (num > 0) {
+            s2 += num % 10;
+            num /= 10;
+        }
+        return s2;
+    }
+
+    private static long primeFactors(long n) {
+        long sum = 0;
         while (n % 2 == 0) {
             sum += 2;
             n /= 2;
         }
-        for (int i = 3; i <= Math.sqrt(n); i += 2) {
+        long m = (long) Math.sqrt(n);
+        for (long i = 3; i <= m; i += 2) {
             while (n % i == 0) {
-                sum += i;
+                sum += digitSum(i);
                 n /= i;
             }
         }
         if (n > 2)
-            sum += n;
+            sum += digitSum(n);
         return sum;
-    }
-
-    private static int digitSum(int n) {
-        int sum = 0;
-        while (n > 0) {
-            sum += n % 10;
-            n /= 10;
-        }
-        return sum;
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        if (digitSum(n) == factorSum(n))
-            System.out.println(1);
-        else System.out.println(0);
     }
 }

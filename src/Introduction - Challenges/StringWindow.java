@@ -14,7 +14,7 @@ public class StringWindow {
         int n1 = str.length();
         int n2 = pat.length();
         if (n1 < n2)
-            return "No";
+            return "No string";
         int[] hashStr = new int[256];
         int[] hashPat = new int[256];
         for (int i = 0; i < n2; i++)
@@ -31,14 +31,14 @@ public class StringWindow {
                     start++;
                 }
                 int window = i - start + 1;
-                if (window<minLen) {
+                if (window < minLen) {
                     minLen = window;
                     startInd = start;
                 }
             }
         }
         if (startInd == -1)
-            return "No";
+            return "No string";
         return str.substring(startInd, startInd + minLen);
     }
 }

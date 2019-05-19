@@ -1,68 +1,48 @@
+package Mathematics;
+
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
 import java.util.InputMismatchException;
 
-public class HOLI {
-    static class Edge {
-        int dest;
-        int weight;
+// ref book
+public class ModuloSum {
 
-        Edge(int d, int w) {
-            dest = d;
-            weight = w;
-        }
-    }
-
-    private static ArrayList<Edge>[] list;
-    private static boolean[] visited;
-    private static int[] count;
-    private static int ans;
-    private static int n;
-
-    private static int dfs(int node) {
-        visited[node] = true;
-        count[node] = 1;
-        int l = list[node].size();
-        for (int i = 0; i < l; i++) {
-            int dd = list[node].get(i).dest;
-            if (!visited[dd]) {
-                count[node] += dfs(dd);
-                int s = count[dd];
-                int eCost = list[node].get(i).weight;
-                ans += 2 * Math.min(s, n - s) * eCost;
-            }
-        }
-        return count[node];
-    }
-
+    // begin of solution
     public static void main(String[] args) throws IOException {
         AmitScan sc = new AmitScan();
         AmitPrint pr = new AmitPrint();
-        int t = sc.scanInt();
-        int s, d, w,z=1;
-        while (t-- > 0) {
-            ans=0;
-            n = sc.scanInt();
-            list = new ArrayList[n + 1];
-            for (int i = 0; i <= n; i++)
-                list[i] = new ArrayList<>();
-            visited = new boolean[n + 1];
-            count = new int[n + 1];
-            for (int i = 1; i < n; i++) {
-                s = sc.scanInt();
-                d = sc.scanInt();
-                w = sc.scanInt();
-                list[s].add(new Edge(d, w));
-                list[d].add(new Edge(s, w));
-            }
-            dfs(1);
-            System.out.println("Case #"+(z++)+": "+ ans);
+        int n = sc.scanInt();
+        int m = sc.scanInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++)
+            a[i] = sc.scanInt();
+        if (n > m) {
+            pr.println("Yes");
+            pr.close();
+            return;
         }
+        else {
+            long[] pre = new long[m + 1];
+            pre[0] = 1;
+            long sum = 0;
+            for (int i = 0; i < n; i++) {
+                sum += a[i];
+                sum %= m;
+                sum = (sum + m) % m;
+                if (pre[(int) sum] > 0) {
+                    System.out.println("Yes");
+                    pr.close();
+                    return;
+                }
+                pre[(int) sum]++;
+            }
+        }
+        System.out.println("No");
         pr.close();
     }
+    // end of solution
 
     static class AmitScan {
         private byte[] buf = new byte[1024]; // Buffer of Bytes

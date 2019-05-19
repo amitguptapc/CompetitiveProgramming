@@ -5,7 +5,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 
-public class HOLI {
+public class HOLI_Spoj {
     static class Edge {
         int dest;
         int weight;
@@ -18,11 +18,11 @@ public class HOLI {
 
     private static ArrayList<Edge>[] list;
     private static boolean[] visited;
-    private static int[] count;
-    private static int ans;
+    private static long[] count;
+    private static long ans;
     private static int n;
 
-    private static int dfs(int node) {
+    private static long dfs(int node) {
         visited[node] = true;
         count[node] = 1;
         int l = list[node].size();
@@ -30,8 +30,8 @@ public class HOLI {
             int dd = list[node].get(i).dest;
             if (!visited[dd]) {
                 count[node] += dfs(dd);
-                int s = count[dd];
-                int eCost = list[node].get(i).weight;
+                long s = count[dd];
+                long eCost = list[node].get(i).weight;
                 ans += 2 * Math.min(s, n - s) * eCost;
             }
         }
@@ -50,7 +50,7 @@ public class HOLI {
             for (int i = 0; i <= n; i++)
                 list[i] = new ArrayList<>();
             visited = new boolean[n + 1];
-            count = new int[n + 1];
+            count = new long[n + 1];
             for (int i = 1; i < n; i++) {
                 s = sc.scanInt();
                 d = sc.scanInt();

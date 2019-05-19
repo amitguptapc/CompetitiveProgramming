@@ -1,8 +1,6 @@
-package src.Mathematics;
-
 import java.util.Scanner;
 
-public class NKLadder {
+public class SEQ {
     private static int k;
     private static long[] b, c;
     private static long MOD = 1000000000;
@@ -33,9 +31,10 @@ public class NKLadder {
     }
 
     private static long calculate(int n) {
-        //if value is less than k no need to calculate
+        // base case
         if (n == 0)
             return 0;
+        //if value is less than k no need to calculate
         if (n <= k)
             return b[n - 1];
         // finding F1 vector which is b
@@ -64,17 +63,17 @@ public class NKLadder {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("No of rugs in ladder :");
-        int n = sc.nextInt();// no of rugs in ladder
-        System.out.println("Max no of steps :");
-        k = sc.nextInt();// max no of steps he can take
-        b = new long[k];
-        c = new long[k];
-        b[0] = 1;
-        for (int i = 1; i < k; i++)
-            b[i] = 2 * b[i - 1];
-        for (int i = 0; i < k; i++)
-            c[i] = 1;
-        System.out.println("No of ways to climb : " + calculate(n));
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            k = sc.nextInt();
+            b = new long[k];
+            c = new long[k];
+            for (int i = 0; i < k; i++)
+                b[i] = sc.nextInt();
+            for (int i = 0; i < k; i++)
+                c[i] = sc.nextInt();
+            int n = sc.nextInt();
+            System.out.println(calculate(n));
+        }
     }
 }

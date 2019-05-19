@@ -14,12 +14,13 @@ class Circle {
         start = center - radius;
         end = center + radius;
     }
-
 }
 
 public class MaxCircles implements Comparator<Circle> {
     public int compare(Circle x, Circle y) {
-        return (int) (x.end - y.end);
+        if (x.radius + x.center == y.radius + y.center)
+            return (int) (x.start - y.start);
+        else return (int) (x.end - y.end);
     }
 
     public static void main(String[] args) {
