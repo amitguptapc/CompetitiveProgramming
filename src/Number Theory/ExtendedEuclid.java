@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class ExtendedEuclid {
-    private static int x, y, gcd;
+    private static int x;
+    private static int y;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,7 +18,6 @@ public class ExtendedEuclid {
         if (b == 0) {
             x = 1;
             y = 0;
-            gcd = a;
             return;
         }
         extendedEuclid(b, a % b);

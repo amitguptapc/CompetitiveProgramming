@@ -74,9 +74,10 @@ public class SPP {
             long m = sc.nextLong();
             long n = sc.nextLong();
             p = sc.nextLong();
-            long x = calculate(m + 1);
-            long y = calculate(n + 2);
-            System.out.println(((y - x) + p) % p);
+            long ans = calculate(n) - calculate(m - 1);
+            if (ans < 0)
+                ans += p;
+            System.out.println(ans);
         }
     }
 }

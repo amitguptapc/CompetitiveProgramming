@@ -12,12 +12,12 @@ public class PrimeFactor {
     }
 
     private static ArrayList<Integer> sieve(int n) {
-        int a[] = new int[n + 1];
+        int[] a = new int[n + 1];
         a[2] = 1;
         for (int i = 3; i <= n; i += 2)
             a[i] = 1;
         for (int i = 3; i <= n; i += 2) {
-            if (a[i] == 0) {
+            if (a[i] == 1) {
                 for (int j = i * i; j <= n; j += 2 * i)
                     a[j] = 0;
             }
@@ -39,10 +39,8 @@ public class PrimeFactor {
                 factors.add(p);
                 num /= p;
             }
-            if (num % p != 0) {
-                i++;
-                p = primes.get(i);
-            }
+            if (num % p != 0)
+                p = primes.get(++i);
         }
         if (num != 1)
             factors.add(num);

@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 
-public class SnakeAndLadder<T> extends Graph<T> {
+public class SnakeAndLadder<T> extends src.Graphs.Graph<T> {
     public static void main(String[] args) {
 
         // board of size 6 x 6
