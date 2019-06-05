@@ -5,22 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mathematics - Challenges/Marbles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics - Challenges/RandomQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics - Challenges/XOR4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/Tprime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/ViratNFact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/DictionaryOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/SnakeAndLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/SnakeAndLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/InvCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MaxSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PivotOfSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/QuickS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/RahulSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/ReadThePages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer/AggressiveCows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer/TrominoTiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathematics - Challenges/MathDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/AliceTotient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/BigGCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/EvenNOddDivisors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/FibonacciGCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/FindIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/LinearCongruence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/MaxXorArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/ModularExpo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/MultiplicativeInv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/NumberOfDivisors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/PlayingWithDivisors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/PrimalityTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory/CRT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory/DiophantineEq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory/PrimalityTesting/FermatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory/PrimalityTesting/MillerRabinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Number Theory/Totient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CROSSWORD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/ClassAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CodesOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/FriendsPairingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NoSamePermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/OptimalGameStrategy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/RatInaMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BookAllocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/BookAllocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DeepakNPrimes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/DeepakNPrimes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DeepakNPrimes2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/DeepakNPrimes2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FastModuloExpo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/FastModuloExpo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/InversionCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/InversionCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LightsNewCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/LightsNewCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MultiModuloInv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MultiModuloInv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SPP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SquareRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SquareRoot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SumItUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SumItUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TrickyPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/TrickyPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/BookAllocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer/BookAllocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/InversionCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer/InversionCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/Pivot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer/Pivot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer/SquareRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/SPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics - Challenges/SPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics/RandomQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number Theory/ExtendedEuclid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory/ExtendedEuclid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number Theory/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number Theory/PrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory/PrimeFactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number Theory/SegmentedSieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory/SegmentedSieve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number Theory/SieveOE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory/SieveOE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/LightsNewCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory/LightsNewCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/MultiModuloInv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory/MultiModuloInv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/TrickyPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/TrickyPermutation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +80,20 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="204" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -47,58 +103,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/Permutation.java">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/InversionCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/DictionaryOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/RatInMaze.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
-              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Number Theory/ExtendedEuclid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            <state relative-caret-position="338">
+              <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Number Theory/FastModuloExpo.java">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/InvCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="84">
+              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes.java">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/AggressiveCows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,42 +133,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Number Theory/SegmentedSieve.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Miscellaneous Topics - Challenges/DigitalDictionary.java">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/TrominoTiling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/RandomQuery.java">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MaxSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Number Theory/PrimeFactor.java">
+        <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/RandomizedQuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/QuickS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/RotatedArraySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/RahulSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -164,6 +212,7 @@
       <find>´</find>
       <find>'/'</find>
       <find>int</find>
+      <find>putTromino</find>
     </findStrings>
     <replaceStrings>
       <replace>'X'</replace>
@@ -172,6 +221,8 @@
       <replace>'`',</replace>
       <replace>'`'</replace>
       <replace>long</replace>
+      <replace>c</replace>
+      <replace>fillTile</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -180,57 +231,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Dynamic Programming/EggDropPuzzle.java" />
-        <option value="$PROJECT_DIR$/src/Geometric Algorithms/GrahamScanAlgo.java" />
-        <option value="$PROJECT_DIR$/src/Dynamic Programming/SHOPTRIP.java" />
-        <option value="$PROJECT_DIR$/src/Dynamic Programming/RockScissorPaper.java" />
-        <option value="$PROJECT_DIR$/src/Dynamic Programming/CellMitosis.java" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/src/Bitmasking - Challenges/NotSoEasyMath.java" />
-        <option value="$PROJECT_DIR$/src/Introduction - Challenges/StringWindow.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/BdayParadox.java" />
-        <option value="$PROJECT_DIR$/src/Segment Trees - Challenges/MinQuery1.java" />
-        <option value="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MaxCircles.java" />
-        <option value="$PROJECT_DIR$/src/Miscellaneous Topics - Challenges/DigitalDictionary.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/BostonNum.java" />
-        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java" />
-        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking/a.cpp" />
-        <option value="$PROJECT_DIR$/src/Mathematics/SEQ_Spoj.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/MultiplicativeInv.java" />
+        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/MathDay.java" />
         <option value="$PROJECT_DIR$/src/Mathematics - Challenges/SEQ.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/FastFibonacci.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/FIBOSUM.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/NKLadder.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/FastTiling.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/DivSubarray.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/DIVSUBS.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/GRAYSC.java" />
-        <option value="$PROJECT_DIR$/src/Graphs/HOLI.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/HOLI.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/HOLI_Spoj.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/FAVDICE.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/ModuloSum.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/HeadExpectation.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/DiceExpectation1.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/ChoosingNo.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/InterviewCand.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/EvaluatingFunc.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics/RandomQuery.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/RandomQuery.java" />
         <option value="$PROJECT_DIR$/src/Mathematics - Challenges/SPP.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/Marbles.java" />
-        <option value="$PROJECT_DIR$/src/Mathematics - Challenges/XOR4.java" />
-        <option value="$PROJECT_DIR$/src/Graphs/SnakeAndLadder.java" />
-        <option value="$PROJECT_DIR$/src/Number Theory/Prime.java" />
-        <option value="$PROJECT_DIR$/src/Number Theory/PrimeFactor.java" />
-        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/ViratNFact.java" />
-        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/Tprime.java" />
-        <option value="$PROJECT_DIR$/src/Number Theory/SieveOE.java" />
         <option value="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes.java" />
-        <option value="$PROJECT_DIR$/src/Number Theory/SegmentedSieve.java" />
         <option value="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes2.java" />
-        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/DictionaryOrder.java" />
-        <option value="$PROJECT_DIR$/src/Number Theory/ExtendedEuclid.java" />
-        <option value="$PROJECT_DIR$/src/Number Theory/FastModuloExpo.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/FindIt.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory/SegmentedSieve.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/NumberOfDivisors.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/PlayingWithDivisors.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/AliceTotient.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory/Totient.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/ModularExpo.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/BigGCD.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory/CRT.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/LinearCongruence.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory/PrimalityTesting/FermatTest.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory/PrimalityTesting/MillerRabinTest.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/PrimalityTesting.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/MaxXorArray.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/EvenNOddDivisors.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory - Challenges/FibonacciGCD.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/FriendsPairing.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/FriendsPairingProblem.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CodesOfString.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/TrickyPermutation.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NoSamePermutation.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SubsetSum.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/ClassAssignment.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/OptimalGameStrategy1.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/RatInaMaze.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CROSSWORD.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking/NQueen.java" />
+        <option value="$PROJECT_DIR$/src/Dynamic Programming/OptimalGameStrategy.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/Pivot.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/BinSearch.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/SquareRoot.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/RotatedArraySearch.java" />
+        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NKnight.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/BookAllocation.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/ReadThePages.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PivotOfSorted.java" />
+        <option value="$PROJECT_DIR$/src/Number Theory/DiophantineEq.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/AggressiveCows.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MaxSubarray.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/QuickS.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/RahulSearch.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/TrominoTiling.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/InversionCount.java" />
+        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/InvCount.java" />
       </list>
     </option>
   </component>
@@ -241,10 +292,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="438" />
-    <option name="y" value="28" />
-    <option name="width" value="1717" />
-    <option name="height" value="942" />
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -255,8 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,6 +334,12 @@
               <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Divide &amp; Conquer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Divide &amp; Conquer - Challenges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
@@ -321,21 +375,7 @@
               <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
-              <item name="AdjacencyList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Greedy Algorithms - Challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Greedy Algorithms - Challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="MaxCircles.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
@@ -383,6 +423,13 @@
               <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Number Theory" type="462c0819:PsiDirectoryNode" />
+              <item name="PrimalityTesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Number Theory - Challenges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -407,13 +454,6 @@
               <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Segment Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="GSS1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Segment Trees - Challenges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -426,6 +466,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,6 +484,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -456,62 +499,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExtendedEuclid">
-    <configuration name="DeepakNPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeepakNPrimes" />
+  <component name="RunManager" selected="Application.InvCount">
+    <configuration name="AggressiveCows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AggressiveCows" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DictionaryOrder" />
+    <configuration name="InvCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InvCount" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendedEuclid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExtendedEuclid" />
+    <configuration name="InversionCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InversionCount" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatInMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.RatInMaze" />
+    <configuration name="MaxSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxSubarray" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tprime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tprime" />
+    <configuration name="TrominoTiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrominoTiling" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tprime" />
-      <item itemvalue="Application.DeepakNPrimes" />
-      <item itemvalue="Application.DictionaryOrder" />
-      <item itemvalue="Application.RatInMaze" />
-      <item itemvalue="Application.ExtendedEuclid" />
+      <item itemvalue="Application.InversionCount" />
+      <item itemvalue="Application.AggressiveCows" />
+      <item itemvalue="Application.MaxSubarray" />
+      <item itemvalue="Application.TrominoTiling" />
+      <item itemvalue="Application.InvCount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExtendedEuclid" />
-        <item itemvalue="Application.RatInMaze" />
-        <item itemvalue="Application.DictionaryOrder" />
-        <item itemvalue="Application.DeepakNPrimes" />
-        <item itemvalue="Application.Tprime" />
+        <item itemvalue="Application.InvCount" />
+        <item itemvalue="Application.InversionCount" />
+        <item itemvalue="Application.TrominoTiling" />
+        <item itemvalue="Application.MaxSubarray" />
+        <item itemvalue="Application.AggressiveCows" />
       </list>
     </recent_temporary>
   </component>
@@ -667,7 +704,23 @@
       <workItem from="1559060437533" duration="4544000" />
       <workItem from="1559124528331" duration="11356000" />
       <workItem from="1559192306146" duration="3435000" />
-      <workItem from="1559198570002" duration="2089000" />
+      <workItem from="1559198570002" duration="2315000" />
+      <workItem from="1559201388678" duration="3163000" />
+      <workItem from="1559215528328" duration="2177000" />
+      <workItem from="1559230416195" duration="1586000" />
+      <workItem from="1559291325063" duration="19052000" />
+      <workItem from="1559332205821" duration="2823000" />
+      <workItem from="1559389522143" duration="6838000" />
+      <workItem from="1559406230652" duration="3218000" />
+      <workItem from="1559409958109" duration="888000" />
+      <workItem from="1559410989700" duration="1915000" />
+      <workItem from="1559453414104" duration="15635000" />
+      <workItem from="1559561523255" duration="9932000" />
+      <workItem from="1559580447574" duration="2311000" />
+      <workItem from="1559656068028" duration="1572000" />
+      <workItem from="1559670922336" duration="17184000" />
+      <workItem from="1559717829823" duration="10593000" />
+      <workItem from="1559741282525" duration="11280000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>
@@ -701,7 +754,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="507630000" />
+    <option name="totallyTimeSpent" value="618023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,7 +769,7 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5005429" side_tool="true" visible="true" weight="0.22572039" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5005429" side_tool="true" visible="true" weight="0.1995731" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -727,14 +780,14 @@
       <window_info id="Sudoku" order="8" sideWeight="0.58740497" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22968581" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" visible="true" weight="0.34994584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33261105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50160086" side_tool="true" weight="0.21776815" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32934782" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32719395" />
@@ -848,85 +901,86 @@
     <SUITE FILE_PATH="coverage/Competitive_Programming$SieveOE.ic" NAME="SieveOE Coverage Results" MODIFIED="1559139632300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MaxCircles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Miscellaneous Topics/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/CycleDetectionDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Geometric Algorithms/GrahamScanAlgo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/BostonNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/FastExpo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/SEQ_Spoj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/NKLadder.java">
+    <entry file="file://$PROJECT_DIR$/src/Number Theory/PrimalityTesting/FermatTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number Theory/PrimalityTesting/MillerRabinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/PrimalityTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/MaxXorArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/EvenNOddDivisors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/FibonacciGCD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/TilingProblem2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/Parenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/FriendsPairingProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CodesOfString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -937,319 +991,287 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/FastTiling.java">
+    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/FIBOSUM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/PowerLogN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="903">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/TrickyPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/TilingProblem2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/SEQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/FIBOSUM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/FastFibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/DivSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/DIVSUBS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/HOLI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#AmitScan#0;class#HOLI#0" />
-            <element signature="class#AmitPrint#0;class#HOLI#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/ModuloSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/RandomQuery.java" />
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/HeadExpectation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/DiceExpectation1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/ChoosingNo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/InterviewCand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/GRAYSC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/XOR4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/HOLI_Spoj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/SPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/Marbles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics/FAVDICE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/SnakeAndLadder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bitmasking/NQueenBitsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/EvaluatingFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory/Prime.java">
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SubsetSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="420">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/ViratNFact.java">
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/ClassAssignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/Tprime.java">
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="68859">
+          <caret line="3353" selection-start-line="3353" selection-end-line="3353" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory/SieveOE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes2.java">
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/Permutation.java">
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NoSamePermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/DictionaryOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="336">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes.java">
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/NQueen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1197">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory/SegmentedSieve.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Miscellaneous Topics - Challenges/DigitalDictionary.java">
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/OptimalGameStrategy1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathematics - Challenges/RandomQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory/PrimeFactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="483">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/RatInMaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        <state relative-caret-position="315">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory/ExtendedEuclid.java">
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/RatInaMaze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CROSSWORD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynamic Programming/OptimalGameStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bitmasking/ConvA2B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24612">
+          <caret line="1290" selection-start-line="1290" selection-end-line="1290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number Theory - Challenges/AliceTotient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/LowerNUpperBound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/SquareRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/text/DecimalFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7980">
+          <caret line="432" column="46" selection-start-line="432" selection-start-column="46" selection-end-line="432" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/BinSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NKnight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number Theory/DiophantineEq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/Pivot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PivotOfSorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/BookAllocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/ReadThePages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Number Theory/MultiModuloInv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MaxxSubarray.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/AggressiveCows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MaxSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number Theory/FastModuloExpo.java">
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="42">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/RandomizedQuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/QuickS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/RotatedArraySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/RahulSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/TrominoTiling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/InversionCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/InvCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>

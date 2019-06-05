@@ -1,11 +1,15 @@
 import java.util.Scanner;
 
+// complexity : O ( log(n) + 9p )
 public class SquareRoot {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int p = sc.nextInt();
         System.out.println(squareRoot(n, p));
+        float a = 0.1f;
+        float b = 2.1f;
+        System.out.println(a + b);
     }
 
     private static float squareRoot(int n, int p) {
@@ -25,7 +29,6 @@ public class SquareRoot {
             } else
                 e = mid - 1;
         }
-
         // calculating the fractional part
         float inc = 0.1f;
         for (int i = 0; i < p; i++) {
@@ -35,9 +38,6 @@ public class SquareRoot {
             res = res - inc;
             inc /= 10;
         }
-        String ans = Float.toString(res);
-        ans = ans.substring(0, ans.indexOf('.') + p+1);
-        res=Float.parseFloat(ans);
         return res;
     }
 }

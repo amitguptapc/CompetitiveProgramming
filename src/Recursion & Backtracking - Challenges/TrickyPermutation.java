@@ -1,14 +1,12 @@
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
+import java.util.TreeSet;
 
 public class TrickyPermutation {
-    private static ArrayList<String> stt = new ArrayList<>();
+    private static TreeSet<String> stt = new TreeSet<>();
 
     private static void permute(StringBuilder s, int j) {
         if (j == s.length()) {
-            if (!stt.contains(s.toString()))
-                stt.add(s.toString());
+            stt.add(s.toString());
             return;
         }
         for (int i = j; i < s.length(); i++) {
@@ -30,8 +28,7 @@ public class TrickyPermutation {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         permute(new StringBuilder(s), 0);
-        Collections.sort(stt);
-        for(String str:stt)
+        for (String str : stt)
             System.out.println(str);
     }
 }

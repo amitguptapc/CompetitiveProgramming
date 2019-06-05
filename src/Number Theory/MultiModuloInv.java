@@ -28,11 +28,11 @@ public class MultiModuloInv {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int m = sc.nextInt();
-        if (euclidGCD(a, m) != 1)
-            System.out.println("Multiplication Modulo Inverse No Possible");
+        if (euclidGCD(a, m) != 1)// possible only when a & m are co prime
+            System.out.println("Multiplication Modulo Inverse Not Possible");
         else {
             extendedEuclid(a, m);
-            x = (x + m) % m;
+            x = (x + m) % m; // to make it positive as the multiplicative modulo inv can be negative
             System.out.println("Multiplicative Modulo Inverse : " + x);
         }
     }

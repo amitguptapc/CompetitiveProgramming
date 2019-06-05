@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 // Requires application of Fermat's Little Theorem
 public class LightsNewCar {
-    private static long mod = 1000000007;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,6 +10,7 @@ public class LightsNewCar {
         while (t > 0) {
             a = sc.next();
             b = sc.next();
+            long mod = 1000000007;
             long x = stringToLong(a, mod);
             long y = stringToLong(b, mod - 1);
             System.out.println(power(x, y, mod));
@@ -22,7 +22,7 @@ public class LightsNewCar {
         long ans = 0;
         int n = a.length();
         for (int i = 0; i < n; i++) {
-            ans = (ans * 10) + (a.charAt(i) - '0');
+            ans = (ans * 10) % m + (a.charAt(i) - '0');
             ans %= m;
         }
         return ans;

@@ -18,16 +18,18 @@ public class SPP {
     }
 
     private static long[][] power(long[][] T, long n) {
-        // base case
-        if (n == 1)
-            return T;
-        // if n is even
-        if ((n & 1) == 1)
-            return multiply(T, power(T, n - 1));
-        else {
-            long[][] X = power(T, n / 2);
-            return multiply(X, X);
+        long[][] P = new long[k][k];
+        for (int i = 0; i < k; i++)
+            for (int j = 0; j < k; j++)
+                if (i == j)
+                    P[i][j] = 1;
+        while (n > 0) {
+            if ((n & 1) == 1)
+                P = multiply(T, P);
+            T = multiply(T, T);
+            n = n >> 1;
         }
+        return P;
     }
 
     private static long calculate(long n) {
@@ -74,10 +76,9 @@ public class SPP {
             long m = sc.nextLong();
             long n = sc.nextLong();
             p = sc.nextLong();
-            long ans = calculate(n) - calculate(m - 1);
-            if (ans < 0)
-                ans += p;
-            System.out.println(ans);
+            long x = calculate(m + 1);
+            long y = calculate(n + 2);
+            System.out.println(((y - x) + p) % p);
         }
     }
 }
