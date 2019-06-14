@@ -13,23 +13,18 @@ public class Graph<T> {
 
     public void addEdge(T u, T v, boolean isBiDir) {
         LinkedList<T> l1;
-
         if (!adjList.containsKey(u)) {
             l1 = new LinkedList<>();
             adjList.put(u, l1);
         } else
             l1 = adjList.get(u);
-
         l1.add(v);
-
-
         if (isBiDir) {
             if (!adjList.containsKey(v)) {
                 l1 = new LinkedList<>();
                 adjList.put(v, l1);
             } else
                 l1 = adjList.get(v);
-
             l1.add(u);
         }
         if (!adjList.containsKey(v)) {
@@ -37,7 +32,7 @@ public class Graph<T> {
         }
     }
 
-    public void printAdjList() {
+    void printAdjList() {
         for (T val : adjList.keySet()) {
             System.out.print(val + " -> ");
             for (T val1 : adjList.get(val)) {

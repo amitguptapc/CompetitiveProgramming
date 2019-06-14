@@ -1,7 +1,7 @@
 package src.Graphs;
 
-public class ConnectedComponent<T> extends DFS<T> {
-    public void connectedComponent(T src) {
+public class ConnectedComponent<T> extends src.Graphs.DFS<T> {
+    private void connectedComponent(T src) {
         int component = 1;
         dfs(src);
         System.out.println();

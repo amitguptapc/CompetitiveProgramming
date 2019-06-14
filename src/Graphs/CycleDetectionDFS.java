@@ -17,7 +17,7 @@ public class CycleDetectionDFS<T> extends src.Graphs.Graph<T> {
         return false;
     }
 
-    public boolean isCyclic() {
+    private boolean isCyclic() {
         ArrayList<T> visited = new ArrayList<>();
         for (T node : adjList.keySet()) {
             if (!visited.contains(node)) {

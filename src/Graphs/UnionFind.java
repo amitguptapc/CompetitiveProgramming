@@ -7,9 +7,6 @@ public class UnionFind {
     static class Edge {
         int src, dest;
 
-        public Edge() {
-        }
-
         void addEdge(int s, int d) {
             src = s;
             dest = d;

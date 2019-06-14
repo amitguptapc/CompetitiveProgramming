@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class MultiModuloInv {
-    private static int x, y, gcd;
+    private static int x;
+    private static int y;
 
     private static int euclidGCD(int a, int b) {
         if (b == 0)
@@ -11,7 +12,6 @@ public class MultiModuloInv {
 
     private static void extendedEuclid(int a, int b) {
         if (b == 0) {
-            gcd = a;
             x = 1;
             y = 0;
             return;

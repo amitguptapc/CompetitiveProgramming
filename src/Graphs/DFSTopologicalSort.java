@@ -3,10 +3,9 @@ package src.Graphs;
 import java.util.ArrayList;
 
 // Topological Sort is applicable on DAG (Directed Acyclic Graph)
-public class DFSTopologicalSort<T> extends Graph<T> {
+public class DFSTopologicalSort<T> extends src.Graphs.Graph<T> {
     private void dfs(T node, ArrayList<T> visited, ArrayList<T> ordering) {
         visited.add(node);
-//        if (adjList.get(node) != null)
             for (T neighbour : adjList.get(node)) {
                 if (!visited.contains(neighbour)) {
                     dfs(neighbour, visited, ordering);
@@ -15,7 +14,7 @@ public class DFSTopologicalSort<T> extends Graph<T> {
         ordering.add(0, node);
     }
 
-    public void dfsTopologicalSort() {
+    private void dfsTopologicalSort() {
         ArrayList<T> visited = new ArrayList<>();
         ArrayList<T> ordering = new ArrayList<>();
         for (T node : adjList.keySet()) {

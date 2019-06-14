@@ -6,15 +6,14 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFSTopologicalSort<T> extends Graph<T> {
-    public void bfsTopologicalSort() {
+public class BFSTopologicalSort<T> extends src.Graphs.Graph<T> {
+    private void bfsTopologicalSort() {
         Queue<T> q = new LinkedList<>();
         HashMap<T, Integer> inDegree = new HashMap<>();
 
         for (T node : adjList.keySet()) {
             inDegree.put(node, 0);
         }
-
         // fill the in degrees of all nodes
         for (T node : adjList.keySet()) {
             for (T node1 : adjList.get(node)) {
@@ -24,21 +23,19 @@ public class BFSTopologicalSort<T> extends Graph<T> {
                     inDegree.put(node1, 0);
             }
         }
-
         // find out all nodes with zero in degree
         for (T node : adjList.keySet()) {
             if (inDegree.get(node) == 0)
                 q.add(node);
         }
-
         while (!q.isEmpty()) {
             T node = q.poll();
             System.out.print(node + "  -> ");
-                for (T neighbour : adjList.get(node)) {
-                    inDegree.put(neighbour, inDegree.get(neighbour) - 1);
-                    if (inDegree.get(neighbour) == 0)
-                        q.add(neighbour);
-                }
+            for (T neighbour : adjList.get(node)) {
+                inDegree.put(neighbour, inDegree.get(neighbour) - 1);
+                if (inDegree.get(neighbour) == 0)
+                    q.add(neighbour);
+            }
         }
     }
 

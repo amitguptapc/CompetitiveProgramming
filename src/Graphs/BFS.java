@@ -4,16 +4,13 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFS<T> extends Graph<T> {
+public class BFS<T> extends src.Graphs.Graph<T> {
     public void bfs(T start) {
         Queue<T> q = new LinkedList<>();
-
         // to store the vertices which are visited
         ArrayList<T> visited = new ArrayList<>();
-
         q.add(start);
         visited.add(start);
-
         while (!q.isEmpty()) {
             T node = q.poll();
             System.out.print(node + " ");

@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// Bipartite graph is also called 2-coloring graph
-// bipartite graph can be colored with 2 colors only
-// all the vertices can be divided into 2 sets
-// edge exists between vertices of different sets
-// no edge occurs between edges of the same set.
+// 1. Bipartite graph is also called 2-coloring graph
+// 2. bipartite graph can be colored with 2 colors only
+// 3. all the vertices can be divided into 2 sets
+// 4. edge exists between vertices of different sets
+// 5. no edge occurs between edges of the same set.
 
-public class BipartiteGraph<T> extends Graph<T> {
+public class BipartiteGraph<T> extends src.Graphs.Graph<T> {
     private boolean isBipartite(T src) {
         Queue<T> q = new LinkedList<>();
         HashMap<T, Integer> colors = new HashMap<>();

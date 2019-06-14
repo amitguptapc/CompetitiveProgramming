@@ -6,8 +6,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // cycle detection in undirected graph using BFS
-public class CycleDetectionBFS<T> extends Graph<T> {
-    public boolean isCyclic(T src) {
+public class CycleDetectionBFS<T> extends src.Graphs.Graph<T> {
+    private boolean isCyclic(T src) {
         Queue<T> q = new LinkedList<>();
         HashMap<T, T> parent = new HashMap<>();
         ArrayList<T> visited = new ArrayList<>();
@@ -33,7 +33,7 @@ public class CycleDetectionBFS<T> extends Graph<T> {
         CycleDetectionBFS<Integer> g = new CycleDetectionBFS<>();
         g.addEdge(1, 2, true);
         g.addEdge(3, 2, true);
-//        g.addEdge(3, 4, true);
+        g.addEdge(3, 4, true);
         g.addEdge(1, 4, true);
         System.out.println("Cycle present : " + g.isCyclic(1));
     }

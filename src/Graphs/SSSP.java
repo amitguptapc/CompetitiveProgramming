@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 
-public class SSSP<T> extends Graph<T> {
+public class SSSP<T> extends src.Graphs.Graph<T> {
     // Single source shortest path using bfs for unweighted graph
     public void sssp(T src) {
         Queue<T> q = new LinkedList<>();

@@ -3,20 +3,17 @@ import java.util.*;
 public class SumItUp {
     private static TreeSet<String> set;
 
-    private static void sumUpto(int[] a, int i, int n, int t, ArrayList<Integer> list) {
+    private static void sumUpto(int[] a, int i, int n, int t, String r) {
+        if (i >= n && t != 0)
+            return;
         if (t == 0) {
-            Collections.sort(list);
-            set.add(list.toString().replace(",", "").substring(1).replace("]", ""));
+            set.add(r);
             return;
         }
-        if (i >= n)
-            return;
         if (a[i] <= t) {
-            ArrayList<Integer> ar = new ArrayList<>(list);
-            ar.add(a[i]);
-            sumUpto(a, i + 1, n, t - a[i], ar);
+            sumUpto(a, i + 1, n, t - a[i], r + a[i] + " ");
         }
-        sumUpto(a, i + 1, n, t, list);
+        sumUpto(a, i + 1, n, t, r);
     }
 
     public static void main(String[] args) {
@@ -26,8 +23,9 @@ public class SumItUp {
         for (int i = 0; i < n; i++)
             a[i] = sc.nextInt();
         int t = sc.nextInt();
+        Arrays.sort(a);
         set = new TreeSet<>();
-        sumUpto(a, 0, n, t, new ArrayList<>());
+        sumUpto(a, 0, n, t, "");
         for (String i : set)
             System.out.println(i);
     }

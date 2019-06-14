@@ -5,15 +5,15 @@ public class OptimalGameStrategy1 {
         if (i == j) {
             return 0;
         }
-        if (a[i] > a[j]) {
-            if (turn)
-                return a[i] + maxScore(a, i + 1, j, false);
-            else
-                return maxScore(a, i + 1, j, true);
+        long a1, a2;
+        if (turn) {
+            a1 = a[i] + maxScore(a, i + 1, j, false);
+            a2 = a[j] + maxScore(a, i, j - 1, false);
+            return Math.max(a1, a2);
         } else {
-            if (turn)
-                return a[j] + maxScore(a, i, j - 1, false);
-            else return maxScore(a, i, j - 1, true);
+            a1 = maxScore(a, i + 1, j, true);
+            a2 = maxScore(a, i, j - 1, true);
+            return Math.min(a1, a2);
         }
     }
 

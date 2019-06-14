@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class DFS<T> extends src.Graphs.Graph<T> {
     public ArrayList<T> visited = new ArrayList<>();
 
-    public void dfs(T node) {
+    void dfs(T node) {
         visited.add(node);
         System.out.print(node + " ");
         for (T neighbour : adjList.get(node)) {

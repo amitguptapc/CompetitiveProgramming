@@ -1,4 +1,4 @@
-package src.Graphs;
+package Graphs.StronglyConnectedComponent;
 
 // check whether graph is strongly connected or not using Tarjan's Algorithm
 public class Tarjan {
