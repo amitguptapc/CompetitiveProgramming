@@ -4,53 +4,26 @@
     <bookmark url="file://$PROJECT_DIR$/src/Mathematics - Challenges/FastFibonacci.java" line="36" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MurthalParantha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PainterPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PairOfRoses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Divide &amp; Conquer/PRATA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs - Challenges/Pairing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs - Challenges/ShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs - Challenges/SnakeNLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/OptimalGameStrategy2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/RobotPoints.java" afterDir="false" />
+    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added Matrix Exponentiation, Expectation, Pigeonhole Principle based questions">
+      <change afterPath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/GrandTemple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy Algorithms/BiasedStandings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy Algorithms/Busyman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy Algorithms/ConnectingWires.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy Algorithms/DefenseOfKingdom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy Algorithms/FractionalKnapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy Algorithms/MaxCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy Algorithms/StationBalance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/OptimalGameStrategy1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/OptimalGameStrategy1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SumItUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SumItUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/AdjacencyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/AdjacencyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFSTopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFSTopologicalSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Citizen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/ConnectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/ConnectedComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionBFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionBFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionDFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFSTopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFSTopologicalSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Graph1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Journey2Moon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Journey2Moon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Kosaraju.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Tarjan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/AdjacencyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/AdjacencyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BFSTopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BFSTopologicalSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BipartiteGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BipartiteGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/ConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/ConnectedComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/CycleDetectionBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/CycleDetectionBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/CycleDetectionDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/CycleDetectionDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/DFSTopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/DFSTopologicalSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/Journey2Moon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Journey2Moon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/Kosaraju.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/StronglyConnectedComponent/Kosaraju.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/SSSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/SSSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/Tarjan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/StronglyConnectedComponent/Tarjan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/UnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/UnionRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/UnionRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number Theory/MultiModuloInv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number Theory/MultiModuloInv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/DictionaryOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/DictionaryOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/OptimalGameStrategy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/OptimalGameStrategy1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection$Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection$Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MultiModuloInv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MultiModuloInv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/ActivitySelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/ActivitySelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MaxCircles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MaxCircles.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,99 +64,121 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Number Theory/MultiModuloInv.java">
+        <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MaxCircles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/UnionFind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/UnionRank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/Kruskal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/StronglyConnectedComponent/Tarjan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/AdjacencyList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="882">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/CycleDetectionDFS.java">
+        <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/MaxCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="651">
+              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/FloodFill.java">
+        <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/FractionalKnapsack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="252">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/BiasedStandings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/StationBalance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Graphs/Journey2Moon.java">
+        <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/DefenseOfKingdom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="399">
+              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms - Challenges/GrandTemple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms - Challenges/ActivitySelection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Introduction - Challenges/HostelVisit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/InvCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -224,16 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/ClassAssignment.java" />
-        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/RatInaMaze.java" />
-        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CROSSWORD.java" />
-        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking/NQueen.java" />
-        <option value="$PROJECT_DIR$/src/Dynamic Programming/OptimalGameStrategy.java" />
-        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/Pivot.java" />
-        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/BinSearch.java" />
-        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/SquareRoot.java" />
-        <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/RotatedArraySearch.java" />
-        <option value="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NKnight.java" />
         <option value="$PROJECT_DIR$/src/Divide &amp; Conquer/BookAllocation.java" />
         <option value="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/ReadThePages.java" />
         <option value="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PivotOfSorted.java" />
@@ -275,6 +260,16 @@
         <option value="$PROJECT_DIR$/src/Number Theory/MultiModuloInv.java" />
         <option value="$PROJECT_DIR$/src/Graphs/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/Graphs/UnionRank.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/ActivitySelection.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms/Busyman.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms/FractionalKnapsack.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MaxCircles.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms/ConnectingWires.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms/MaxCircle.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms/BiasedStandings.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms/StationBalance.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/GrandTemple.java" />
+        <option value="$PROJECT_DIR$/src/Greedy Algorithms/DefenseOfKingdom.java" />
       </list>
     </option>
   </component>
@@ -298,6 +293,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,13 +378,13 @@
               <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Greedy Algorithms - Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Competitive Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy Algorithms - Challenges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Competitive Programming" type="b2602c69:ProjectViewProjectNode" />
@@ -472,8 +469,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -482,6 +477,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553945834276" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practice" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -491,7 +487,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -510,80 +506,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kosaraju">
-    <configuration name="CycleDetectionBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graphs.CycleDetectionBFS" />
+  <component name="RunManager" selected="Application.DefenseOfKingdom">
+    <configuration name="BiasedStandings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BiasedStandings" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.StronglyConnectedComponent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graphs.FloodFill" />
+    <configuration name="ConnectingWires" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConnectingWires" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.StronglyConnectedComponent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Journey2Moon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graphs.Journey2Moon" />
+    <configuration name="DefenseOfKingdom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefenseOfKingdom" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.StronglyConnectedComponent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kosaraju" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.StronglyConnectedComponent.Kosaraju" />
+    <configuration name="MaxCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxCircle" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.StronglyConnectedComponent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pairing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pairing" />
+    <configuration name="StationBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StationBalance" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Pairing" />
-      <item itemvalue="Application.CycleDetectionBFS" />
-      <item itemvalue="Application.FloodFill" />
-      <item itemvalue="Application.Journey2Moon" />
-      <item itemvalue="Application.Kosaraju" />
+      <item itemvalue="Application.ConnectingWires" />
+      <item itemvalue="Application.MaxCircle" />
+      <item itemvalue="Application.BiasedStandings" />
+      <item itemvalue="Application.StationBalance" />
+      <item itemvalue="Application.DefenseOfKingdom" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Kosaraju" />
-        <item itemvalue="Application.Pairing" />
-        <item itemvalue="Application.Journey2Moon" />
-        <item itemvalue="Application.FloodFill" />
-        <item itemvalue="Application.CycleDetectionBFS" />
+        <item itemvalue="Application.DefenseOfKingdom" />
+        <item itemvalue="Application.StationBalance" />
+        <item itemvalue="Application.BiasedStandings" />
+        <item itemvalue="Application.MaxCircle" />
+        <item itemvalue="Application.ConnectingWires" />
       </list>
     </recent_temporary>
   </component>
@@ -769,7 +741,9 @@
       <workItem from="1560400725515" duration="25000" />
       <workItem from="1560429389597" duration="70000" />
       <workItem from="1560438181810" duration="2215000" />
-      <workItem from="1560504000408" duration="539000" />
+      <workItem from="1560504000408" duration="4587000" />
+      <workItem from="1561015534003" duration="3515000" />
+      <workItem from="1561026007680" duration="8106000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>
@@ -803,7 +777,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="667399000" />
+    <option name="totallyTimeSpent" value="683068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -816,8 +790,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5005429" side_tool="true" visible="true" weight="0.25933832" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5005429" side_tool="true" visible="true" weight="0.18303095" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -828,7 +803,7 @@
       <window_info id="Sudoku" order="8" sideWeight="0.58740497" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" weight="0.29577464" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49839914" visible="true" weight="0.29685807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33261105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -836,7 +811,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50160086" side_tool="true" weight="0.21776815" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32934782" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32719395" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -949,84 +924,6 @@
     <SUITE FILE_PATH="coverage/Competitive_Programming$SieveOE.ic" NAME="SieveOE Coverage Results" MODIFIED="1559139632300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MaxxSubarray.java" />
-    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/InversionCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/InvCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dynamic Programming/WineProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/TrominoTiling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MaxSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/RandomizedQuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/QuickS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/RotatedArraySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Segment Trees - Challenges/MinQuery1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/RahulSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion &amp; Backtracking/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer/AggressiveCows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1316,6 +1213,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphs/Kruskal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graphs/CycleDetectionDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1330,17 +1234,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/Kruskal.java">
+    <entry file="file://$PROJECT_DIR$/src/Graphs/Journey2Moon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="273">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graphs/Journey2Moon.java">
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/Busyman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/ConnectingWires.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms - Challenges/ActivitySelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Introduction - Challenges/HostelVisit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/InvCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MaxCircles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/MaxCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/BiasedStandings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/StationBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms - Challenges/GrandTemple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/FractionalKnapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy Algorithms/DefenseOfKingdom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
