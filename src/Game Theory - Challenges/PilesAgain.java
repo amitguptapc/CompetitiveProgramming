@@ -1,10 +1,6 @@
-
-// https://www.spoj.com/problems/QCJ3
-
 import java.util.Scanner;
 
-// n coins on index m represents n piles of height m
-public class QCJ3 {
+public class PilesAgain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -15,9 +11,9 @@ public class QCJ3 {
             for (int i = 0; i < s; i++) {
                 a[i] = sc.nextInt();
                 if ((a[i] & 1) == 1)
-                    ans ^= i + 1;
+                    ans ^= i;
             }
-            System.out.println(ans == 0 ? "Hanks Wins" : "Tom Wins");
+            System.out.println(ans == 0 ? "Second" : "First");
         }
     }
 }

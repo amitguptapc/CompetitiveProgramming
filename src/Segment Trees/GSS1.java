@@ -3,33 +3,33 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 // https://www.spoj.com/problems/GSS1/
-class Node {
-    public int preSum;
-    public int sufSum;
-    public int totalSum;
-    public int maxSum;
-
-    public Node() {
-
-    }
-
-    public Node(int ps, int ss, int ts, int ms) {
-        preSum = ps;
-        sufSum = ss;
-        totalSum = ts;
-        maxSum = ms;
-    }
-}
-
 public class GSS1 {
+    static class Node {
+        int preSum;
+        int sufSum;
+        int totalSum;
+        int maxSum;
+
+        public Node() {
+
+        }
+
+        public Node(int ps, int ss, int ts, int ms) {
+            preSum = ps;
+            sufSum = ss;
+            totalSum = ts;
+            maxSum = ms;
+        }
+    }
+
     private static int[] a;
     private static Node[] tree;
-    private static int min = Integer.MIN_VALUE;
 
     private static Node query(int ns, int ne, int qs, int qe, int index) {
         if (qs <= ns && qe >= ne)
             return tree[index];
         if (ne < qs || ns > qe) {
+            int min = Integer.MIN_VALUE;
             return new Node(min, min, min, min);
         }
         int mid = (ns + ne) / 2;

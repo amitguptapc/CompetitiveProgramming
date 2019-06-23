@@ -3,16 +3,16 @@ import java.util.Scanner;
 
 // https://www.codechef.com/problems/SHOPTRIP
 
-class Point {
-    public int x, y;
-
-    Point(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
 public class SHOPTRIP {
+    static class Point {
+        public int x, y;
+
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
     private static double[][] dist;
     private static int n, k;
     private static ArrayList<Integer> ingred;

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.TreeSet;
 
-// give a pile of n coins and the player can remove any no of coins he want.
+// give a pile of n coins and the player can remove any no of coins.
 
 public class GrundyNo {
     private static int findMex(TreeSet<Integer> s) {
