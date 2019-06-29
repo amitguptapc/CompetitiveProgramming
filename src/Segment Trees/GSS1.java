@@ -1,20 +1,21 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 // https://www.spoj.com/problems/GSS1/
 public class GSS1 {
     static class Node {
-        int preSum;
-        int sufSum;
-        int totalSum;
-        int maxSum;
+        long preSum;
+        long sufSum;
+        long totalSum;
+        long maxSum;
 
         public Node() {
 
         }
 
-        public Node(int ps, int ss, int ts, int ms) {
+        public Node(long ps, long ss, long ts, long ms) {
             preSum = ps;
             sufSum = ss;
             totalSum = ts;
@@ -22,14 +23,14 @@ public class GSS1 {
         }
     }
 
-    private static int[] a;
+    private static long[] a;
     private static Node[] tree;
 
     private static Node query(int ns, int ne, int qs, int qe, int index) {
         if (qs <= ns && qe >= ne)
             return tree[index];
         if (ne < qs || ns > qe) {
-            int min = Integer.MIN_VALUE;
+            long min = Long.MIN_VALUE;
             return new Node(min, min, min, min);
         }
         int mid = (ns + ne) / 2;
@@ -61,27 +62,23 @@ public class GSS1 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
-        a = new int[n];
-        String s = br.readLine();
-        String[] str = s.trim().split("\\s+");
+        int n = Integer.parseInt(br.readLine().trim());
+        a = new long[n];
+        StringTokenizer st = new StringTokenizer(br.readLine().trim());
         for (int i = 0; i < n; i++)
-            a[i] = Integer.parseInt(str[i]);
-        int m = Integer.parseInt(br.readLine());
-        int p = (int) Math.pow(2, Math.ceil(Math.log(n) / Math.log(2)) + 1);
+            a[i] = Long.parseLong(st.nextToken());
+        int m = Integer.parseInt(br.readLine().trim());
+        int p = 4 * n + 1;
         tree = new Node[p];
         for (int i = 0; i < p; i++)
             tree[i] = new Node();
         buildTree(0, n - 1, 1);
         int x, y;
-        String st;
-        while (m > 0) {
-            st = br.readLine();
-            String[] ss = st.trim().split("\\s+");
-            x = Integer.parseInt(ss[0]);
-            y = Integer.parseInt(ss[1]);
+        while (m-- > 0) {
+            st = new StringTokenizer(br.readLine().trim());
+            x = Integer.parseInt(st.nextToken());
+            y = Integer.parseInt(st.nextToken());
             System.out.println(query(0, n - 1, x - 1, y - 1, 1).maxSum);
-            m--;
         }
     }
 }

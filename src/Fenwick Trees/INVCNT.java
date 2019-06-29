@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 // https://www.spoj.com/problems/INVCNT/
 public class INVCNT {
     private static int[] BIT;
-    private static int[] a;
 
     private static int query(int i) {
         int ans = 0;
@@ -17,9 +16,9 @@ public class INVCNT {
         return ans;
     }
 
-    private static void update(int i, int inc) {
-        while (i <= 2000001) {
-            BIT[i] += inc;
+    private static void update(int i) {
+        while (i <= 10000001) {
+            BIT[i] += 1;
             i += (i & (-i));
         }
     }
@@ -27,16 +26,18 @@ public class INVCNT {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
+        br.readLine();
         while (t > 0) {
             int n = Integer.parseInt(br.readLine());
-            a = new int[n + 1];
-            BIT = new int[2000002];
+            int[] a = new int[n + 1];
+            BIT = new int[10000001];
             for (int i = 1; i <= n; i++)
                 a[i] = Integer.parseInt(br.readLine());
+            br.readLine();
             int ans = 0;
             for (int i = n; i >= 1; i--) {
                 ans += query(a[i] - 1);
-                update(a[i], 1);
+                update(a[i]);
             }
             System.out.println(ans);
             t--;

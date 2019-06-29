@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// RSQ (Range Sum Query) using Fenwick Tree
+// RSQ (Range Sum Query) using Binary Indexed Tree
 public class RangeSum {
     private static int[] BIT;
     private static int n;

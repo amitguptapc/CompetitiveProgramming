@@ -21,15 +21,19 @@ public class RMQ {
 
     private static void updateNode(int[] tree, int s, int e, int i, int inc, int index) {
         // base case ,if out of range
+        // no overlap
         if (s > i || e < i)
             return;
 
         // when element to be updated is reached
+        // leaf node
+        // complete overlap
         if (s == e) {
             tree[index] += inc;
             return;
         }
 
+        // partial overlap
         // recursively compute the new minimum
         int mid = (s + e) / 2;
         updateNode(tree, s, mid, i, inc, 2 * index);
@@ -75,6 +79,7 @@ public class RMQ {
         int[] tree = new int[(int) Math.pow(2, m + 1)];
 
         build(a, 0, n - 1, tree, 1);
+        System.out.println(Arrays.toString(tree));
         System.out.println(query(tree, 0, 2, 0, n - 1, 1));
         int x = sc.nextInt();
         int inc = sc.nextInt();

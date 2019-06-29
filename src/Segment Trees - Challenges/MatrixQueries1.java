@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-// https://hack.codingblocks.com/contests/c/128/813
-public class MatrixQuery {
+public class MatrixQueries1 {
     private static int r;
 
     static class Matrix {
@@ -29,7 +28,7 @@ public class MatrixQuery {
 
     private static Matrix query(int s, int e, int qs, int qe, Matrix[] tree, int idx) {
         if (qs > e || s > qe)
-            return new Matrix(1, 0, 0, 1); // return identity matrix
+            return new Matrix(1, 0, 0, 1);
         if (s >= qs && e <= qe)
             return tree[idx];
         int m = (s + e) / 2;
