@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Fib {
     private static int[] a;
 
-    // Pure DP (Botton up)
+    // Pure DP (Bottom up)
     private static int fib3(int n) {
         a[0] = 0;
         a[1] = 1;
@@ -24,18 +24,14 @@ public class Fib {
             return n;
         if (a[n] != -1)
             return a[n];
-        a[n - 1] = fib2(n - 1);
-        a[n - 2] = fib2(n - 2);
-        a[n] = a[n - 1] + a[n - 2];
+        a[n] = fib2(n - 1) + fib2(n - 2);
         return a[n];
     }
 
     // Naive approach
     private static int fib1(int n) {
-        if (n == 0)
-            return 0;
-        if (n == 1)
-            return 1;
+        if (n <= 1)
+            return n;
         return fib1(n - 1) + fib1(n - 2);
     }
 

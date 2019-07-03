@@ -44,10 +44,8 @@ public class MinStepsTo1 {
         if (n == 1)
             return 0;
         int x = Integer.MAX_VALUE, y = Integer.MAX_VALUE, z;
-        if (n % 3 == 0)
-            x = 1 + reduce1(n / 3);
-        if (n % 2 == 0)
-            y = 1 + reduce1(n / 2);
+        if (n % 3 == 0) x = 1 + reduce1(n / 3);
+        if (n % 2 == 0) y = 1 + reduce1(n / 2);
         z = 1 + reduce1(n - 1);
         return Math.min(x, Math.min(y, z));
     }

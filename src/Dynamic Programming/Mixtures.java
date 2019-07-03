@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // https://www.codechef.com/submit/MIXTURES
-// variation of matrix chain multiplication
+// application of matrix chain multiplication
 
 public class Mixtures {
     private static long[][] dp;
