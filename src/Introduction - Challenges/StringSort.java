@@ -15,7 +15,7 @@ public class StringSort implements Comparator<String> {
             s.add(sc.nextLine());
             n--;
         }
-        Collections.sort(s, new StringSort());
+        s.sort(new StringSort());
         for (String i : s) {
             System.out.println(i);
         }

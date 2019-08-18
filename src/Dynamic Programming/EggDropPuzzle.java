@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Find the minimum no of attempts to find the critical floor
+// Given there are n floors and k eggs
 public class EggDropPuzzle {
     private static int attempts(int n, int k) {
         int[][] dp = new int[n + 1][k + 1];
@@ -17,8 +19,8 @@ public class EggDropPuzzle {
                 dp[i][j] = Integer.MAX_VALUE;
                 for (int l = 1; l <= i; l++) {
                     res = 1 + Math.max(
-                            dp[l - 1][j - 1], // when egg breaks we are left with l-1 floors
-                            dp[i - l][j]  // when egg doesn't break we are left with i-l floors
+                            dp[l - 1][j - 1], // when egg breaks we are left with l-1 floors and j-1 eggs
+                            dp[i - l][j]  // when egg doesn't break we are left with i-l floors and j eggs
                     );
                     dp[i][j] = Math.min(dp[i][j], res);
                 }

@@ -63,7 +63,7 @@ public class RockScissorPaper {
             int r = sc.nextInt();
             int s = sc.nextInt();
             int p = sc.nextInt();
-            DecimalFormat df = new DecimalFormat("#.#########");
+            DecimalFormat df = new DecimalFormat("#0.000000000");
             dp = new double[r + 1][s + 1][p + 1];
             initialize(r, s, p);
             double x = rockSurvivor(r, s, p);

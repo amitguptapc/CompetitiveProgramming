@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// variation of TSP
 // https://www.codechef.com/problems/SHOPTRIP
 
 public class SHOPTRIP {
@@ -22,8 +23,10 @@ public class SHOPTRIP {
         // base case
         if (mask == ((1 << k) - 1) && ind == 0)
             return 0;
+
         if (dp[mask][ind] != -1)
             return dp[mask][ind];
+
         dp[mask][ind] = Double.MAX_VALUE;
         for (int i = 0; i <= n; i++) {
             if ((mask | ingred.get(i)) > mask || i == 0)
@@ -32,6 +35,7 @@ public class SHOPTRIP {
                         dist[ind][i] + shopTrip(mask | ingred.get(i), i)
                 );
         }
+
         return dp[mask][ind];
     }
 
@@ -47,31 +51,39 @@ public class SHOPTRIP {
         while (t-- > 0) {
             n = sc.nextInt();
             k = sc.nextInt();
+
             ArrayList<Point> coord = new ArrayList<>();
             coord.add(new Point(0, 0));  // kitchen coordinates
+
             for (int i = 0; i < n; i++)
                 coord.add(new Point(sc.nextInt(), sc.nextInt()));
+
             ingred = new ArrayList<>();
             ingred.add(0); // ingredients in kitchen
+
             int ig, present = 0;
             for (int i = 0; i < n; i++) {
                 ig = Integer.parseInt(sc.next(), 2);
                 ingred.add(ig);
                 present |= ig;
             }
+
             if (present != (1 << k) - 1) { // if any ingredient if missing in all shops
                 System.out.println(-1);
                 continue;
             }
+
             // maintain distance between all shops and kitchen
             dist = new double[n + 1][n + 1];
             for (int i = 0; i <= n; i++)
                 for (int j = 0; j <= n; j++)
                     dist[i][j] = distance(coord.get(i), coord.get(j));
+
             dp = new double[(int) Math.pow(2, k)][n + 1];
             for (int i = 0; i < Math.pow(2, k); i++)
                 for (int j = 0; j <= n; j++)
                     dp[i][j] = -1;
+
             System.out.println(shopTrip(0, 0));
         }
     }

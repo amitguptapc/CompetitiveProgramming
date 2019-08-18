@@ -6,7 +6,7 @@ import java.util.InputMismatchException;
 
 // https://www.hackerearth.com/problem/algorithm/mancunian-and-k-ordered-lcs-e6a4b8c6/
 
-public class K_OrderedLCS {
+public class KLCS {
     private static int[][][] dp;
     private static int[] a;
     private static int[] b;

@@ -30,12 +30,12 @@ public class DiwaliPuzzle {
         while (t-- > 0) {
             n = sc.nextInt();
             k = sc.nextInt();
-            dp = new int[105][2][105];
+            dp = new int[105][3][105];
             for (int i = 0; i < 105; i++)
-                for (int j = 0; j < 2; j++)
+                for (int j = 0; j < 3; j++)
                     for (int l = 0; l < 105; l++)
                         dp[i][j][l] = -1;
-            System.out.println(combination(1, 0, 0) + combination(1, 1, 0));
+            System.out.println((combination(1, 0, 0) + combination(1, 1, 0)) % mod);
         }
     }
 }

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 // https://hack.codingblocks.com/contests/c/204/646
 
+// Advanced DP
 public class CellMitosis {
     private static int x, y, z;
 
@@ -10,9 +11,15 @@ public class CellMitosis {
         dp[0] = 0;
         dp[1] = 0;
         for (int i = 2; i <= n; i++) {
-            if (i % 2 == 0)
-                dp[i] = Math.min(dp[i / 2] + x, dp[i - 1] + y);
-            else dp[i] = Math.min(dp[i - 1] + y, dp[(i + 1) / 2] + x + z);
+            if (i % 2 == 0) // even case
+                dp[i] = Math.min(
+                        dp[i / 2] + x, // doubling the cells
+                        dp[i - 1] + y  // increase cells by 1
+                );
+            else dp[i] = Math.min(
+                    dp[i - 1] + y, // increase cells by 1
+                    dp[(i + 1) / 2] + x + z // double the cells and decrease by 1
+            );
         }
         return dp[n];
     }

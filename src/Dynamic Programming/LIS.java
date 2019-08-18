@@ -1,7 +1,8 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LIS {
-    private static int findLCS(int[] a, int n) {
+    private static int findLIS(int[] a, int n) {
         int[] memo = new int[n];            // here memo[i] stores the longest increasing subsequence
         for (int i = 0; i < n; i++)         // ending at that index
             memo[i] = 1;
@@ -24,6 +25,6 @@ public class LIS {
         int[] a = new int[n];
         for (int i = 0; i < n; i++)
             a[i] = sc.nextInt();
-        System.out.println(findLCS(a, n));
+        System.out.println(findLIS(a, n));
     }
 }

@@ -9,9 +9,9 @@ public class EfficientFib {
         if (dp.get(n) != null)
             return dp.get(n);
         long k = n / 2;
-        if (n % 2 == 0)
+        if (n % 2 == 0) // even case
             dp.put(n, fib(k) * fib(k) + fib(k - 1) * fib(k - 1));
-        else
+        else // odd case
             dp.put(n, fib(k + 1) * fib(k) + fib(k - 1) * fib(k));
         return dp.get(n);
     }
@@ -21,9 +21,6 @@ public class EfficientFib {
         long n = sc.nextLong();
         dp.put(0L, 1L);
         dp.put(1L, 1L);
-        if(n==0)
-            System.out.println(0);
-        else
-        System.out.println(fib(n-1));
+        System.out.println(n == 0 ? 0 : fib(n - 1));
     }
 }

@@ -1,5 +1,7 @@
 // TSP finds the minimum weight hamiltonian cycle
+// every node is visited only once and return back to the starting node.
 
+// Complexity of Memoized solution is (2^n)*n
 public class TSP {
     private static int n = 4;
     private static int[][] dist = {

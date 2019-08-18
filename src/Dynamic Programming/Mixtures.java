@@ -33,9 +33,9 @@ public class Mixtures {
             a = new int[n];
             for (int i = 0; i < n; i++)
                 a[i] = sc.nextInt();
-            dp = new long[n + 1][n + 1];
-            for (int i = 0; i <= n; i++)
-                for (int j = 0; j <= n; j++)
+            dp = new long[n][n];
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < n; j++)
                     dp[i][j] = -1;
             System.out.println(minSmoke(0, n - 1));
         }
