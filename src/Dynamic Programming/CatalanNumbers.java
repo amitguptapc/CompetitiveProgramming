@@ -20,4 +20,4 @@ public class CatalanNumbers {
         int n = sc.nextInt();
         System.out.println(findCatalan(n));
     }
-}
+  }

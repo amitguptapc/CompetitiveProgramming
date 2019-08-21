@@ -1,52 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added Matrix Exponentiation, Expectation, Pigeonhole Principle based questions">
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/BRIDGES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/DiwaliPuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/ExchangingCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/FriendsPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/JobForBounties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/WildcardMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming/CatalanNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming/StaircaseProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic Programming/ValentineMagic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Miscellaneous Topics/SNACKUP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String Matching Algorithm/NaiveAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added Catalan Numbers and Constructive Algorithms.">
+      <change afterPath="$PROJECT_DIR$/src/String Matching Algorithm/RabinKarp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/DiameterBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/DiameterBetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default (amit-HP-Pavilion-Notebook's conflicted copy 2019-02-19).xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default (amit-HP-Pavilion-Notebook's conflicted copy 2019-02-19).xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/CellMitosis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/CellMitosis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DiwaliPuzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/DiwaliPuzzle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientFib.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientFib.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EggDropPuzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/EggDropPuzzle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/K_OrderedLCS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LIS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/LIS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/META-INF/CodingBlocks.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mixtures.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mixtures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MoneyChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MoneyChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/OneCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/OneCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/OptimalGameStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/OptimalGameStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RockScissorPaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/RockScissorPaper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP$Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/StringSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/StringSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/TSP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/MoneyChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/MoneyChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/OneCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/OneCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/CellMitosis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/CellMitosis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/DiwaliPuzzle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/EfficientFib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/EfficientFib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/EggDropPuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/EggDropPuzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/K_OrderedLCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/KLCS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/LIS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/Mixtures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/Mixtures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/OptimalGameStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/OptimalGameStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/RockScissorPaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/RockScissorPaper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/SHOPTRIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/SHOPTRIP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/TSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/TSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MikeHashTrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MikeHashTrick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Introduction - Challenges/StringSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Introduction - Challenges/StringSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/CatalanNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/CatalanNumbers.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,12 +76,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-172" />
-    <option name="y" value="28" />
-    <option name="width" value="1707" />
-    <option name="height" value="941" />
-  </component>
   <component name="ProjectId" id="1PJBYTv3RQdEXzlOemQreAL8bzA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -164,17 +120,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CatalanNumbers">
-    <configuration name="Busyman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Busyman" />
+  <component name="RunManager" selected="Application.DiameterBetter">
+    <configuration name="CatalanNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CatalanNumbers" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalanNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CatalanNumbers" />
+    <configuration name="DiameterBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.DiameterBasic" />
       <module name="CodingBlocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiameterBetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.DiameterBetter" />
+      <module name="CodingBlocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,27 +168,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringSort" />
-      <module name="CodingBlocks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StringSort" />
-      <item itemvalue="Application.Busyman" />
       <item itemvalue="Application.SNACKUP" />
       <item itemvalue="Application.NaiveAlgorithm" />
       <item itemvalue="Application.CatalanNumbers" />
+      <item itemvalue="Application.DiameterBasic" />
+      <item itemvalue="Application.DiameterBetter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiameterBetter" />
+        <item itemvalue="Application.DiameterBasic" />
         <item itemvalue="Application.CatalanNumbers" />
         <item itemvalue="Application.NaiveAlgorithm" />
         <item itemvalue="Application.SNACKUP" />
-        <item itemvalue="Application.Busyman" />
-        <item itemvalue="Application.StringSort" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +395,9 @@
       <workItem from="1565592167028" duration="40000" />
       <workItem from="1566029958903" duration="167000" />
       <workItem from="1566030320740" duration="66000" />
-      <workItem from="1566150852330" duration="2902000" />
+      <workItem from="1566150852330" duration="3124000" />
+      <workItem from="1566293452119" duration="1268000" />
+      <workItem from="1566411385686" duration="3742000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>
@@ -457,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558292257164</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Catalan Numbers and Constructive Algorithms.">
+      <created>1566154775180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566154775180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -507,7 +484,8 @@
     <MESSAGE value="Added Bitmasking Problems" />
     <MESSAGE value="Added Dynamic Programming and Tries." />
     <MESSAGE value="Added Matrix Exponentiation, Expectation, Pigeonhole Principle based questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Matrix Exponentiation, Expectation, Pigeonhole Principle based questions" />
+    <MESSAGE value="Added Catalan Numbers and Constructive Algorithms." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Catalan Numbers and Constructive Algorithms." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
