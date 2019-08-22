@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added Catalan Numbers and Constructive Algorithms.">
-      <change afterPath="$PROJECT_DIR$/src/String Matching Algorithm/RabinKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/BinaryTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/DiameterBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/DiameterBetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default (amit-HP-Pavilion-Notebook's conflicted copy 2019-02-19).xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default (amit-HP-Pavilion-Notebook's conflicted copy 2019-02-19).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/CatalanNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic Programming/CatalanNumbers.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +69,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="origin" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PJBYTv3RQdEXzlOemQreAL8bzA" />
@@ -120,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiameterBetter">
+  <component name="RunManager" selected="Application.Dijkstra">
     <configuration name="CatalanNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CatalanNumbers" />
       <module name="CodingBlocks" />
@@ -154,6 +154,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.Dijkstra" />
+      <module name="CodingBlocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NaiveAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NaiveAlgorithm" />
       <module name="CodingBlocks" />
@@ -161,27 +174,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SNACKUP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SNACKUP" />
-      <module name="CodingBlocks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SNACKUP" />
       <item itemvalue="Application.NaiveAlgorithm" />
       <item itemvalue="Application.CatalanNumbers" />
       <item itemvalue="Application.DiameterBasic" />
       <item itemvalue="Application.DiameterBetter" />
+      <item itemvalue="Application.Dijkstra" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dijkstra" />
         <item itemvalue="Application.DiameterBetter" />
         <item itemvalue="Application.DiameterBasic" />
         <item itemvalue="Application.CatalanNumbers" />
         <item itemvalue="Application.NaiveAlgorithm" />
-        <item itemvalue="Application.SNACKUP" />
       </list>
     </recent_temporary>
   </component>
@@ -398,6 +404,7 @@
       <workItem from="1566150852330" duration="3124000" />
       <workItem from="1566293452119" duration="1268000" />
       <workItem from="1566411385686" duration="3742000" />
+      <workItem from="1566493200529" duration="4913000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>
