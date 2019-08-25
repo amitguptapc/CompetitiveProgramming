@@ -1,4 +1,4 @@
-package src.Graphs;
+package Graphs.MST;
 
 // Used for finding the minimum spanning tree (MST)
 // MST is a tree covering all the vertices in minimum possible cost

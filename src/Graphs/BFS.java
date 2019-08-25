@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class BFS<T> extends src.Graphs.Graph<T> {
-    public void bfs(T start) {
+    private void bfs(T start) {
         Queue<T> q = new LinkedList<>();
         // to store the vertices which are visited
         ArrayList<T> visited = new ArrayList<>();

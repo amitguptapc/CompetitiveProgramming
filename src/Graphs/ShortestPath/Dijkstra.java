@@ -1,10 +1,13 @@
-package Graphs;
+package Graphs.ShortestPath;
 
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.TreeSet;
 
+// Greedy Algorithm
+// Doesn't work for negative weight edges
+// Complexity O(ElogV)
 public class Dijkstra {
     static class Pair<T> implements Comparator<Pair> {
         T dest;
