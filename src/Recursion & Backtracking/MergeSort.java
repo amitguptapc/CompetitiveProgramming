@@ -5,14 +5,14 @@ public class MergeSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int a[] = new int[n];
+        int[] a = new int[n];
         for (int i = 0; i < n; i++)
             a[i] = sc.nextInt();
         mergeSort(a, 0, n - 1);
         System.out.println(Arrays.toString(a));
     }
 
-    private static void mergeSort(int a[], int start, int end) {
+    private static void mergeSort(int[] a, int start, int end) {
         if (start >= end)
             return;
         int mid = (start + end) / 2;
@@ -21,10 +21,10 @@ public class MergeSort {
         merge(a, start, mid, end);
     }
 
-    private static void merge(int a[], int start, int mid, int end) {
+    private static void merge(int[] a, int start, int mid, int end) {
         // left subarray
         int n1 = mid - start + 1;
-        int L[] = new int[n1];
+        int[] L = new int[n1];
         for (int i = 0; i < n1; i++)
             L[i] = a[start + i];
 

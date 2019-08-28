@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added Catalan Numbers and Constructive Algorithms.">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Dijkstra.java" afterDir="false" />
+    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added Bellman Ford and Prim's Algorithm.">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/KReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/MergeSortLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching &amp; Sorting/MergeSortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching &amp; Sorting/QuickSortArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Kruskal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/MergeSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +25,7 @@
     <SUITE FILE_PATH="coverage/Competitive_Programming$RMQ.ic" NAME="RMQ Coverage Results" MODIFIED="1549812331401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="204" />
+    <option name="myElementSize" value="206" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -46,27 +53,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>+</find>
-      <find>'+'</find>
-      <find>'X'</find>
-      <find>´</find>
-      <find>'/'</find>
-      <find>int</find>
-      <find>putTromino</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>'X'</replace>
-      <replace>'+'</replace>
-      <replace>''',</replace>
-      <replace>'`',</replace>
-      <replace>'`'</replace>
-      <replace>long</replace>
-      <replace>c</replace>
-      <replace>fillTile</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -120,20 +106,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dijkstra">
-    <configuration name="CatalanNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CatalanNumbers" />
-      <module name="CodingBlocks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiameterBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.DiameterBasic" />
+  <component name="RunManager" selected="Application.MergeSortLL">
+    <configuration name="KReverse (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.KReverse" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiameterBetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.DiameterBetter" />
+    <configuration name="KReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KReverse" />
+      <module name="CodingBlocks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSortArray" />
+      <module name="CodingBlocks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.MergeSortLL" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,40 +147,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.Dijkstra" />
-      <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NaiveAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NaiveAlgorithm" />
+    <configuration name="Prim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prim" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NaiveAlgorithm" />
-      <item itemvalue="Application.CatalanNumbers" />
-      <item itemvalue="Application.DiameterBasic" />
-      <item itemvalue="Application.DiameterBetter" />
-      <item itemvalue="Application.Dijkstra" />
+      <item itemvalue="Application.Prim" />
+      <item itemvalue="Application.MergeSortArray" />
+      <item itemvalue="Application.KReverse" />
+      <item itemvalue="Application.KReverse (1)" />
+      <item itemvalue="Application.MergeSortLL" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.DiameterBetter" />
-        <item itemvalue="Application.DiameterBasic" />
-        <item itemvalue="Application.CatalanNumbers" />
-        <item itemvalue="Application.NaiveAlgorithm" />
+        <item itemvalue="Application.MergeSortLL" />
+        <item itemvalue="Application.KReverse (1)" />
+        <item itemvalue="Application.KReverse" />
+        <item itemvalue="Application.MergeSortArray" />
+        <item itemvalue="Application.Prim" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +384,15 @@
       <workItem from="1566150852330" duration="3124000" />
       <workItem from="1566293452119" duration="1268000" />
       <workItem from="1566411385686" duration="3742000" />
-      <workItem from="1566493200529" duration="4913000" />
+      <workItem from="1566493200529" duration="5705000" />
+      <workItem from="1566652841509" duration="2440000" />
+      <workItem from="1566735892431" duration="3052000" />
+      <workItem from="1566741459315" duration="1228000" />
+      <workItem from="1566755798115" duration="6375000" />
+      <workItem from="1566794190847" duration="593000" />
+      <workItem from="1566801297228" duration="174000" />
+      <workItem from="1567004382965" duration="6017000" />
+      <workItem from="1567015318006" duration="4609000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>
@@ -441,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566154775180</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Dijkstra's Algorithm.">
+      <created>1566498410472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566498410472</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Bellman Ford and Prim's Algorithm.">
+      <created>1566766135851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566766135851</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -492,7 +494,9 @@
     <MESSAGE value="Added Dynamic Programming and Tries." />
     <MESSAGE value="Added Matrix Exponentiation, Expectation, Pigeonhole Principle based questions" />
     <MESSAGE value="Added Catalan Numbers and Constructive Algorithms." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Catalan Numbers and Constructive Algorithms." />
+    <MESSAGE value="Added Dijkstra's Algorithm." />
+    <MESSAGE value="Added Bellman Ford and Prim's Algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bellman Ford and Prim's Algorithm." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -500,6 +504,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Competitive_Programming$SieveOE.ic" NAME="SieveOE Coverage Results" MODIFIED="1559139632300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$BellmanFord.ic" NAME="BellmanFord Coverage Results" MODIFIED="1566739177357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Graphs.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Competitive_Programming$StringSort.ic" NAME="StringSort Coverage Results" MODIFIED="1564152057525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
