@@ -13,31 +13,50 @@ public class UnionRank {
         }
     }
 
+    static class Prank {
+        int parent;
+        int rank;
+
+        Prank(int p, int r) {
+            parent = p;
+            rank = r;
+        }
+    }
+
     private Edge[] g;
     private int V, E;
 
-    private void union(int[] parent, int x, int y) {
-        int xp = findParent(x, parent);
-        int yp = findParent(y, parent);
-        parent[yp] = xp;
+    private void union(Prank[] list, int x, int y) {
+        int xp = findParent(x, list);
+        int yp = findParent(y, list);
+        // add smaller rank under larger rank
+        if (list[xp].rank > list[yp].rank)
+            list[yp].parent = xp;
+        else if (list[xp].rank < list[yp].rank)
+            list[xp].parent = yp;
+        else { // both having same rank
+            list[xp].parent = yp;
+            list[yp].rank++;
+        }
     }
 
-    private int findParent(int node, int[] parent) {
-        if (parent[node] == -1)
-            return node;
-        return findParent(parent[node], parent);
+    private int findParent(int node, Prank[] list) {
+        if (list[node].parent != node)
+            list[node].parent = findParent(list[node].parent, list);
+        return list[node].parent;
     }
 
     private boolean isCyclic() {
-        int[] parent = new int[this.V];
-        Arrays.fill(parent, -1);
+        Prank[] list = new Prank[this.V];
+        for (int i = 0; i < this.V; i++)
+            list[i] = new Prank(i, 0);
         for (int i = 0; i < this.E; i++) {
-            int x = findParent(this.g[i].src, parent);
-            int y = findParent(this.g[i].dest, parent);
+            int x = findParent(this.g[i].src, list);
+            int y = findParent(this.g[i].dest, list);
             if (x == y) {
                 return true;
             }
-            union(parent, x, y);
+            union(list, x, y);
         }
         return false;
     }

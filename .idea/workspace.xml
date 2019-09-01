@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added Bellman Ford and Prim's Algorithm.">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/KReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/MergeSortLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Searching &amp; Sorting/MergeSortArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Searching &amp; Sorting/QuickSortArray.java" afterDir="false" />
+    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/amit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/QuickSortLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Kruskal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/MST/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/MST/Kruskal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/UnionRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/UnionRank.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +70,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553945834276" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Balloon Game" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -106,9 +103,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortLL">
-    <configuration name="KReverse (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.KReverse" />
+  <component name="RunManager" selected="Application.Prim">
+    <configuration name="AddNtoLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.AddNtoLL" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
@@ -120,26 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KReverse" />
-      <module name="CodingBlocks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortArray" />
-      <module name="CodingBlocks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.MergeSortLL" />
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BST.BST" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="BST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.MST.Kruskal" />
+      <module name="CodingBlocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graphs.MST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,20 +150,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnionRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Graphs.UnionRank" />
+      <module name="CodingBlocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.BST" />
+      <item itemvalue="Application.AddNtoLL" />
+      <item itemvalue="Application.UnionRank" />
+      <item itemvalue="Application.Kruskal" />
       <item itemvalue="Application.Prim" />
-      <item itemvalue="Application.MergeSortArray" />
-      <item itemvalue="Application.KReverse" />
-      <item itemvalue="Application.KReverse (1)" />
-      <item itemvalue="Application.MergeSortLL" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSortLL" />
-        <item itemvalue="Application.KReverse (1)" />
-        <item itemvalue="Application.KReverse" />
-        <item itemvalue="Application.MergeSortArray" />
         <item itemvalue="Application.Prim" />
+        <item itemvalue="Application.Kruskal" />
+        <item itemvalue="Application.UnionRank" />
+        <item itemvalue="Application.AddNtoLL" />
+        <item itemvalue="Application.BST" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +401,15 @@
       <workItem from="1566794190847" duration="593000" />
       <workItem from="1566801297228" duration="174000" />
       <workItem from="1567004382965" duration="6017000" />
-      <workItem from="1567015318006" duration="4609000" />
+      <workItem from="1567015318006" duration="5990000" />
+      <workItem from="1567052455799" duration="306000" />
+      <workItem from="1567086841138" duration="160000" />
+      <workItem from="1567172495971" duration="549000" />
+      <workItem from="1567173192909" duration="125000" />
+      <workItem from="1567184617045" duration="1883000" />
+      <workItem from="1567272874343" duration="11201000" />
+      <workItem from="1567346211565" duration="3040000" />
+      <workItem from="1567358036270" duration="5065000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>
@@ -443,17 +460,22 @@
       <option name="project" value="LOCAL" />
       <updated>1566766135851</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added K-reverse and merge sort in Linked List.">
+      <created>1567023067901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567023067901</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added Binary Search Tree.">
+      <created>1567346393990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567346393990</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -496,7 +518,9 @@
     <MESSAGE value="Added Catalan Numbers and Constructive Algorithms." />
     <MESSAGE value="Added Dijkstra's Algorithm." />
     <MESSAGE value="Added Bellman Ford and Prim's Algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bellman Ford and Prim's Algorithm." />
+    <MESSAGE value="Added K-reverse and merge sort in Linked List." />
+    <MESSAGE value="Added Binary Search Tree." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Binary Search Tree." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

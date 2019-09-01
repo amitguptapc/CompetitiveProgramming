@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Prim {
     static class Pair<T> {
         T dest;
-        Integer distance;
+        int distance;
 
         Pair(T a, int b) {
             dest = a;
