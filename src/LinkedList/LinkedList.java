@@ -11,12 +11,17 @@ class Node {
 }
 
 public class LinkedList {
-    Node head;
+    Node head, ptr;
 
     void add(int d) {
         Node temp = new Node(d);
-        temp.next = head;
-        head = temp;
+        if (head == null) {
+            ptr = temp;
+            head = ptr;
+        } else {
+            ptr.next = temp;
+            ptr = ptr.next;
+        }
     }
 
     void printList() {
@@ -30,5 +35,6 @@ public class LinkedList {
 
     public LinkedList() {
         head = null;
+        ptr = null;
     }
 }
