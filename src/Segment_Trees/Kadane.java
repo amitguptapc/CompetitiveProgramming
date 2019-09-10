@@ -1,4 +1,3 @@
-// pre-requisite for GSS1
 // Kadane's Algorithm is used to find largest sum subarray in a given array
 public class Kadane {
     private static int kadane(int[] a, int n) {
