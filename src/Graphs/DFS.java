@@ -5,16 +5,6 @@ import java.util.ArrayList;
 public class DFS<T> extends src.Graphs.Graph<T> {
     public ArrayList<T> visited = new ArrayList<>();
 
-    void dfs(T node) {
-        visited.add(node);
-        System.out.print(node + " ");
-        for (T neighbour : adjList.get(node)) {
-            if (!visited.contains(neighbour)) {
-                dfs(neighbour);
-            }
-        }
-    }
-
     public static void main(String[] args) {
         DFS<Integer> g = new DFS<>();
         g.addEdge(0, 1, true);
@@ -26,5 +16,15 @@ public class DFS<T> extends src.Graphs.Graph<T> {
         g.addEdge(3, 4, true);
         System.out.println("Depth First Search : ");
         g.dfs(0);
+    }
+
+    void dfs(T node) {
+        visited.add(node);
+        System.out.print(node + " ");
+        for (T neighbour : adjList.get(node)) {
+            if (!visited.contains(neighbour)) {
+                dfs(neighbour);
+            }
+        }
     }
 }

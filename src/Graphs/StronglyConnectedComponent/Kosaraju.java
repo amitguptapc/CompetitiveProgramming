@@ -6,9 +6,20 @@ import java.util.Map;
 
 // check whether a graph is strongly connected or not
 public class Kosaraju {
+    public static void main(String[] args) {
+        Graph g = new Graph(5);
+        g.addEdge(0, 1);
+        g.addEdge(1, 2);
+        g.addEdge(2, 3);
+        g.addEdge(3, 0);
+        g.addEdge(2, 4);
+//        g.addEdge(4, 2);
+        System.out.println(g.isStronglyConnected());
+    }
+
     static class Graph {
-        private int n;
         public Map<Integer, LinkedList<Integer>> adjList;
+        private int n;
 
         Graph(int n) {
             this.n = n;
@@ -64,16 +75,5 @@ public class Kosaraju {
                     return false;
             return true;
         }
-    }
-
-    public static void main(String[] args) {
-        Graph g = new Graph(5);
-        g.addEdge(0, 1);
-        g.addEdge(1, 2);
-        g.addEdge(2, 3);
-        g.addEdge(3, 0);
-        g.addEdge(2, 4);
-//        g.addEdge(4, 2);
-        System.out.println(g.isStronglyConnected());
     }
 }

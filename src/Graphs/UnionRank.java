@@ -1,30 +1,27 @@
 package src.Graphs;
 
-import java.util.Arrays;
-
 // used to detect cycle in a graph
 public class UnionRank {
-    static class Edge {
-        int src, dest;
-
-        void addEdge(int s, int d) {
-            src = s;
-            dest = d;
-        }
-    }
-
-    static class Prank {
-        int parent;
-        int rank;
-
-        Prank(int p, int r) {
-            parent = p;
-            rank = r;
-        }
-    }
-
     private Edge[] g;
     private int V, E;
+
+    public static void main(String[] args) {
+        UnionRank f = new UnionRank();
+        f.E = 4;
+        f.V = 4;
+        f.g = new Edge[f.E];
+        for (int i = 0; i < f.E; i++)
+            f.g[i] = new Edge();
+        f.g[0].addEdge(0, 1);
+        f.g[1].addEdge(1, 2);
+        f.g[2].addEdge(3, 0);
+        f.g[2].addEdge(2, 3);
+        if (f.isCyclic()) {
+            System.out.println("Cycle Present");
+        } else {
+            System.out.println("No cycle found");
+        }
+    }
 
     private void union(Prank[] list, int x, int y) {
         int xp = findParent(x, list);
@@ -61,21 +58,22 @@ public class UnionRank {
         return false;
     }
 
-    public static void main(String[] args) {
-        UnionRank f = new UnionRank();
-        f.E = 4;
-        f.V = 4;
-        f.g = new Edge[f.E];
-        for (int i = 0; i < f.E; i++)
-            f.g[i] = new Edge();
-        f.g[0].addEdge(0, 1);
-        f.g[1].addEdge(1, 2);
-        f.g[2].addEdge(3, 0);
-        f.g[2].addEdge(2, 3);
-        if (f.isCyclic()) {
-            System.out.println("Cycle Present");
-        } else {
-            System.out.println("No cycle found");
+    static class Edge {
+        int src, dest;
+
+        void addEdge(int s, int d) {
+            src = s;
+            dest = d;
+        }
+    }
+
+    static class Prank {
+        int parent;
+        int rank;
+
+        Prank(int p, int r) {
+            parent = p;
+            rank = r;
         }
     }
 }

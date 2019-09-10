@@ -2,12 +2,368 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/amit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fenwick_Trees_Challenges/D3Structure.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/LinkedList/QuickSortLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/BinaryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/CROSSWORD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/ClassAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/CodesOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/DictionaryOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/FriendsPairingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/NKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/NoSamePermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/OptimalGameStrategy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/OptimalGameStrategy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/Parenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/RatInaMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/RobotPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/SmartKeypad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/SmartKeypadAdvanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/StringCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/SubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/SumItUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/TilingProblem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/TrickyPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/CBNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/CheckSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Crossword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/IncreasingDecreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/N2048.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/NQueen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/PhoneKeypad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/RandomizedQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/RatInMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/RecBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/StringToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Subsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/TilingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/SwapNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection$Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection$Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BiasedStandings$Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/BiasedStandings$Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BiasedStandings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/BiasedStandings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Busyman$Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Busyman$Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Busyman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Busyman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/CodesOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary$Trie$TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary$Trie$TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary$Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary$Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT$AmitPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT$AmitPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT$AmitScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT$AmitScan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FibonacciGCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/FibonacciGCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FractionalKnapsack$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/FractionalKnapsack$Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FractionalKnapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/FractionalKnapsack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GSS1$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/GSS1$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GSS1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/GSS1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Game3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Game3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GrahamScanAlgo$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/GrahamScanAlgo$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GrahamScanAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/GrahamScanAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/StronglyConnectedComponent/Kosaraju$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/StronglyConnectedComponent/Kosaraju$Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/StronglyConnectedComponent/Kosaraju.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/StronglyConnectedComponent/Kosaraju.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI_Spoj$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI_Spoj$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI_Spoj.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI_Spoj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/JarvisAlgo$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/JarvisAlgo$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/JarvisAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/JarvisAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LIS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/LIS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/FAVDICE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/FAVDICE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum$AmitPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum$AmitPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum$AmitScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum$AmitScan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQueries1$Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQueries1$Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQueries1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQueries1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQuery$Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQuery$Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircle$Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircle$Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircles$Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircles$Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/NumberOfDivisors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/NumberOfDivisors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Pairing$Cities.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Pairing$Cities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Pairing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Pairing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QCJ3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/QCJ3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QueryBits$AmitPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QueryBits$AmitScan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QueryBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/QueryBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ShortestPath$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/ShortestPath$Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ShortestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/ShortestPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SnakeNLadder$Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SnakeNLadder$Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SnakeNLadder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SnakeNLadder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SquareRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SquareRoot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/StringSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/StringSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SumItUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/SumItUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trie$TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Trie$TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/BasicOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/BasicOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/ConvA2B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/ConvA2B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/AdjacencyList$Graph1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/AdjacencyList$Graph1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/AdjacencyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/AdjacencyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFSTopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFSTopologicalSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BipartiteGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BipartiteGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/ConnectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/ConnectedComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionBFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionBFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionDFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFSTopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFSTopologicalSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Journey2Moon$Citizen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Journey2Moon$Citizen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Journey2Moon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Journey2Moon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/SSSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/SSSP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank$Edge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BST/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking - Challenges/NotSoEasyMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking - Challenges/PlayWithBits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking - Challenges/UltraFastMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking - Challenges/UniqueNo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking - Challenges/UniqueNo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking - Challenges/UniqueNo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking - Challenges/XorProfit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking/BasicOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking/BasicOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bitmasking/ConvA2B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking/ConvA2B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/InvCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MaxSubarray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/MurthalParantha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PainterPartition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PairOfRoses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/PivotOfSorted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/QuickS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/RahulSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer - Challenges/ReadThePages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/AggressiveCows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/BinSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/BookAllocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/InversionCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/LowerNUpperBound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/PRATA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/Pivot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/RotatedArraySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/SquareRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Divide &amp; Conquer/TrominoTiling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/BRIDGES.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/DiwaliPuzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/ExchangingCoins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/FriendsPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/JobForBounties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/LISModified.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/MoneyChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/OneCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/PrintLCS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming - Challenges/WildcardMatching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/CatalanNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/CellMitosis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/CoinChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/EditDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/EfficientFib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/EggDropPuzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/Fib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/FriendsPairing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/KLCS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/LCS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/LIS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/MinCostPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/MinStepsTo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/Mixtures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/OptimalGameStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/RobotPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/RockScissorPaper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/RodCutting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/SHOPTRIP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/StaircaseProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/TSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/ValentineMagic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic Programming/WineProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fenwick Trees/EfficientINVCNT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fenwick Trees/INVCNT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fenwick Trees/PreMaxElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fenwick Trees/RangeSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory - Challenges/GameOfStones1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory - Challenges/GameTheory1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory - Challenges/GameTheory2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory - Challenges/PilesAgain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory/Game1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory/Game2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory/Game3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory/GrundyNo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory/HorseGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory/MMMGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game Theory/QCJ3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Geometric Algorithms/GrahamScanAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometric Algorithms/GrahamScanAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Geometric Algorithms/JarvisAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometric Algorithms/JarvisAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs - Challenges/Pairing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs - Challenges/ShortestPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs - Challenges/SnakeNLadder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/AdjacencyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/AdjacencyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/BFSTopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BFSTopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/BipartiteGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BipartiteGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/ConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/ConnectedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/CycleDetectionBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/CycleDetectionBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/CycleDetectionDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/CycleDetectionDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/DFSTopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/DFSTopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/HOLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/HOLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/Journey2Moon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Journey2Moon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graphs/MST/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/MST/Kruskal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/MST/Prim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/MST/Prim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/SSSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/SSSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/ShortestPath/BellmanFord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/ShortestPath/BellmanFord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/ShortestPath/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/ShortestPath/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/StronglyConnectedComponent/Kosaraju.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/StronglyConnectedComponent/Kosaraju.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/UnionFind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graphs/UnionRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/UnionRank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/ActivitySelection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/DeepakAndJourney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/DividingArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/GrandTemple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MaxCircles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms - Challenges/MikeHashTrick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms/BiasedStandings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms/Busyman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms/Chopsticks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms/ConnectingWires.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms/DefenseOfKingdom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms/FractionalKnapsack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms/MaxCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy Algorithms/StationBalance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction - Challenges/HostelVisit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction - Challenges/MedianSortedArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction - Challenges/StringSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction - Challenges/StringWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction - Challenges/SubarraySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introduction - Challenges/Unlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/BdayParadox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/BostonNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/ChoosingNo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/DiceExpectation1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/EvaluatingFunc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/FIBOSUM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/FastFibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/FastTiling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/HeadExpectation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/InterviewCand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/Marbles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/MathDay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/PowerLogN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/RandomQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/SEQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/SPP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics - Challenges/XOR4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics/FAVDICE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/FAVDICE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics/HOLI_Spoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/HOLI_Spoj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics/ModuloSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/ModuloSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Miscellaneous Topics - Challenges/DigitalDictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Miscellaneous Topics/SNACKUP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Miscellaneous Topics/Trie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/AliceTotient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/BigGCD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/DeepakNPrimes2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/EvenNOddDivisors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/FibonacciGCD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/FindIt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/LinearCongruence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/MaxXorArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/ModularExpo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/MultiplicativeInv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/NumberOfDivisors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/PlayingWithDivisors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/PrimalityTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/Tprime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory - Challenges/ViratNFact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/CRT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/DiophantineEq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/ExtendedEuclid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/FastModuloExpo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/GCDnLCM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/LightsNewCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/MultiModuloInv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/PrimalityTesting/FermatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/PrimalityTesting/MillerRabinTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/Prime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/PrimeFactor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/SegmentedSieve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/SieveOE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number Theory/Totient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/BinaryString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CROSSWORD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/ClassAssignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/CodesOfString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/DictionaryOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/FriendsPairingProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NKnight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/NoSamePermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/OptimalGameStrategy1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/OptimalGameStrategy2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/Parenthesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/RatInaMaze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/RobotPoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SmartKeypad1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SmartKeypadAdvanced.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/StringCodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SubsetSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/SumItUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/TilingProblem2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking - Challenges/TrickyPermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/CheckSorted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/Crossword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/IncreasingDecreasing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/Multiplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/N2048.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/NQueen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/Permutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/PhoneKeypad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/Power.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/RandomizedQuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/RatInMaze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/RecBinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/StringToInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/Subsequences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/SudokuSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/TilingProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion &amp; Backtracking/TowerOfHanoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching &amp; Sorting/MergeSortArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching &amp; Sorting/QuickSortArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment Trees - Challenges/MatrixQueries1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment Trees - Challenges/MinQuery1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment Trees - Challenges/QueryBits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment Trees/GSS1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment Trees/Kadane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment Trees/LazyRMQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment Trees/MatrixQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment Trees/RMQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square Root Decomposition/RangeSumQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String Matching Algorithm/NaiveAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String Matching Algorithm/RabinKarp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/DiameterBetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/DiameterBetter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +403,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -64,6 +421,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -103,13 +461,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prim">
-    <configuration name="AddNtoLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.AddNtoLL" />
+  <component name="RunManager" selected="Application.CoinChange">
+    <configuration name="CBNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_N_Backtracking.CBNumbers" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Recursion_N_Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +475,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BST.BST" />
+    <configuration name="CodesOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_N_Backtracking_Challenges.CodesOfString" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BST.*" />
+          <option name="PATTERN" value="Recursion_N_Backtracking_Challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,53 +488,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.MST.Kruskal" />
-      <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.MST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Prim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prim" />
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoinChange" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Graphs.UnionRank" />
+    <configuration name="SwapNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwapNodes" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UPDATEIT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UPDATEIT" />
+      <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BST" />
-      <item itemvalue="Application.AddNtoLL" />
-      <item itemvalue="Application.UnionRank" />
-      <item itemvalue="Application.Kruskal" />
-      <item itemvalue="Application.Prim" />
+      <item itemvalue="Application.UPDATEIT" />
+      <item itemvalue="Application.SwapNodes" />
+      <item itemvalue="Application.CodesOfString" />
+      <item itemvalue="Application.CBNumbers" />
+      <item itemvalue="Application.CoinChange" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Prim" />
-        <item itemvalue="Application.Kruskal" />
-        <item itemvalue="Application.UnionRank" />
-        <item itemvalue="Application.AddNtoLL" />
-        <item itemvalue="Application.BST" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.CBNumbers" />
+        <item itemvalue="Application.CodesOfString" />
+        <item itemvalue="Application.SwapNodes" />
+        <item itemvalue="Application.UPDATEIT" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +755,18 @@
       <workItem from="1567184617045" duration="1883000" />
       <workItem from="1567272874343" duration="11201000" />
       <workItem from="1567346211565" duration="3040000" />
-      <workItem from="1567358036270" duration="5065000" />
+      <workItem from="1567358036270" duration="9251000" />
+      <workItem from="1567420471071" duration="16263000" />
+      <workItem from="1567454723444" duration="10007000" />
+      <workItem from="1567789785806" duration="5703000" />
+      <workItem from="1567831566791" duration="15748000" />
+      <workItem from="1567883048212" duration="9266000" />
+      <workItem from="1567919761164" duration="6522000" />
+      <workItem from="1567943175475" duration="5166000" />
+      <workItem from="1567959935353" duration="1874000" />
+      <workItem from="1568022105935" duration="4711000" />
+      <workItem from="1568060425835" duration="3897000" />
+      <workItem from="1568120066717" duration="1228000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>
@@ -474,7 +831,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567346393990</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Union Find, Union Rank &amp; Kruskal's Algorithm.">
+      <created>1567367494709</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567367494709</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,6 +872,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -520,7 +885,8 @@
     <MESSAGE value="Added Bellman Ford and Prim's Algorithm." />
     <MESSAGE value="Added K-reverse and merge sort in Linked List." />
     <MESSAGE value="Added Binary Search Tree." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Binary Search Tree." />
+    <MESSAGE value="Added Union Find, Union Rank &amp; Kruskal's Algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Union Find, Union Rank &amp; Kruskal's Algorithm." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

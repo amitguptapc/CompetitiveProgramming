@@ -1,16 +1,6 @@
 package Trees;
 
 public class DiameterBetter {
-    public static class Pair<T, V> {
-        T height;
-        V diameter;
-
-        Pair(T first, V second) {
-            this.height = first;
-            this.diameter = second;
-        }
-    }
-
     private static Pair<Integer, Integer> findHeightDiameter(BinaryTreeNode<Integer> root) {
         if (root == null)
             return new Pair<>(0, 0);
@@ -37,5 +27,15 @@ public class DiameterBetter {
         root.left.right.right.right.addRight(10);
         root.left.right.right.right.right.addRight(11);
         System.out.println(findHeightDiameter(root).diameter);
+    }
+
+    public static class Pair<T, V> {
+        T height;
+        V diameter;
+
+        Pair(T first, V second) {
+            this.height = first;
+            this.diameter = second;
+        }
     }
 }

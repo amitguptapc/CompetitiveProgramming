@@ -22,8 +22,7 @@ public class ModuloSum {
             pr.println("Yes");
             pr.close();
             return;
-        }
-        else {
+        } else {
             long[] pre = new long[m + 1];
             pre[0] = 1;
             long sum = 0;

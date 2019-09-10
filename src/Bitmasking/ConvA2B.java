@@ -1,4 +1,5 @@
 package src.Bitmasking;
+
 import java.util.Scanner;
 
 // No of bits that must be changed to convert a to b

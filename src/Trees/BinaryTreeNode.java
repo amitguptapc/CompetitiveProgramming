@@ -1,8 +1,8 @@
 package Trees;
 
 public class BinaryTreeNode<T> {
-    private T value;
     public BinaryTreeNode<T> left, right;
+    private T value;
 
     BinaryTreeNode(T val) {
         this.value = val;

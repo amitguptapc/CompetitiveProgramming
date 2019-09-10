@@ -6,8 +6,23 @@ import java.util.Map;
 import java.util.Queue;
 
 public class SSSP<T> extends src.Graphs.Graph<T> {
+    public static void main(String[] args) {
+        SSSP<Integer> g = new SSSP<>();
+        g.addEdge(0, 1, true);
+        g.addEdge(0, 4, false);
+        g.addEdge(1, 2, true);
+        g.addEdge(1, 3, false);
+        g.addEdge(2, 3, false);
+        g.addEdge(2, 4, true);
+        g.addEdge(3, 4, true);
+        System.out.println("Adjacency List : ");
+        g.printAdjList();
+        System.out.println("Single Source Shortest Path : ");
+        g.sssp(0);
+    }
+
     // Single source shortest path using bfs for unweighted graph
-    public void sssp(T src) {
+    private void sssp(T src) {
         Queue<T> q = new LinkedList<>();
         Map<T, Integer> distance = new HashMap<>();
         for (T node : adjList.keySet())
@@ -26,20 +41,5 @@ public class SSSP<T> extends src.Graphs.Graph<T> {
         for (T val : adjList.keySet()) {
             System.out.println("Distance of " + val + " from " + src + " is " + distance.get(val));
         }
-    }
-
-    public static void main(String[] args) {
-        SSSP<Integer> g = new SSSP<>();
-        g.addEdge(0, 1, true);
-        g.addEdge(0, 4, false);
-        g.addEdge(1, 2, true);
-        g.addEdge(1, 3, false);
-        g.addEdge(2, 3, false);
-        g.addEdge(2, 4, true);
-        g.addEdge(3, 4, true);
-        System.out.println("Adjacency List : ");
-        g.printAdjList();
-        System.out.println("Single Source Shortest Path : ");
-        g.sssp(0);
     }
 }

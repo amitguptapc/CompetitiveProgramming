@@ -2,16 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class JarvisAlgo {
-    static class Point {
-        int x;
-        int y;
-
-        Point(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-    }
-
     private static int alignment(Point p, Point q, Point r) {
         int n = (q.y - p.y) * (r.x - q.x) - (r.y - q.y) * (q.x - p.x);
         if (n == 0)
@@ -49,5 +39,15 @@ public class JarvisAlgo {
         for (int i = 0; i < n; i++)
             points[i] = new Point(sc.nextInt(), sc.nextInt());
         convexHull(points, n);
+    }
+
+    static class Point {
+        int x;
+        int y;
+
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
     }
 }

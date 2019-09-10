@@ -8,6 +8,18 @@ import java.util.HashSet;
 public class BellmanFord {
     private static final int INFINITY = Integer.MAX_VALUE;
 
+    public static void main(String[] args) {
+        Graph<String> g = new Graph<>(6, 7);
+        g.addEdge("Amritsar", "Delhi", 1);
+        g.addEdge("Amritsar", "Jaipur", 4);
+        g.addEdge("Jaipur", "Delhi", 2);
+        g.addEdge("Jaipur", "Mumbai", 8);
+        g.addEdge("Bhopal", "Agra", 2);
+        g.addEdge("Mumbai", "Bhopal", 3);
+        g.addEdge("Agra", "Delhi", 1);
+        g.bellmanFord("Amritsar");
+    }
+
     static class Edge<T> {
         T src, dest;
         int weight;
@@ -67,17 +79,5 @@ public class BellmanFord {
             for (T node : distances.keySet())
                 System.out.println(node + " - " + distances.get(node));
         }
-    }
-
-    public static void main(String[] args) {
-        Graph<String> g = new Graph<>(6, 7);
-        g.addEdge("Amritsar", "Delhi", 1);
-        g.addEdge("Amritsar", "Jaipur", 4);
-        g.addEdge("Jaipur", "Delhi", 2);
-        g.addEdge("Jaipur", "Mumbai", 8);
-        g.addEdge("Bhopal", "Agra", 2);
-        g.addEdge("Mumbai", "Bhopal", 3);
-        g.addEdge("Agra", "Delhi", 1);
-        g.bellmanFord("Amritsar");
     }
 }

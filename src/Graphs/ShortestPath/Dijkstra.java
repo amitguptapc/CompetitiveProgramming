@@ -9,6 +9,20 @@ import java.util.TreeSet;
 // Doesn't work for negative weight edges
 // Complexity O(ElogV)
 public class Dijkstra {
+    public static void main(String[] args) {
+        Graph<String> g = new Graph<>();
+        g.addEdge("Amritsar", "Delhi", 1, true);
+        g.addEdge("Amritsar", "Jaipur", 4, true);
+        g.addEdge("Jaipur", "Delhi", 2, true);
+        g.addEdge("Jaipur", "Mumbai", 8, true);
+        g.addEdge("Bhopal", "Agra", 2, true);
+        g.addEdge("Mumbai", "Bhopal", 3, true);
+        g.addEdge("Agra", "Delhi", 1, true);
+        g.printAdjList();
+
+        g.dijkstraSSSP("Amritsar");
+    }
+
     static class Pair<T> implements Comparator<Pair> {
         T dest;
         Integer distance;
@@ -83,18 +97,5 @@ public class Dijkstra {
             for (T d : distances.keySet())
                 System.out.println(d + " " + distances.get(d));
         }
-    }
-
-    public static void main(String[] args) {
-        Graph<String> g = new Graph<>();
-        g.addEdge("Amritsar", "Delhi", 1, true);
-        g.addEdge("Amritsar", "Jaipur", 4, true);
-        g.addEdge("Jaipur", "Delhi", 2, true);
-        g.addEdge("Jaipur", "Mumbai", 8, true);
-        g.addEdge("Bhopal", "Agra", 2, true);
-        g.addEdge("Mumbai", "Bhopal", 3, true);
-        g.addEdge("Agra", "Delhi", 1, true);
-        g.printAdjList();
-        g.dijkstraSSSP("Amritsar");
     }
 }

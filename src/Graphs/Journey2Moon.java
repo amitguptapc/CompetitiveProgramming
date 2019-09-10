@@ -6,6 +6,17 @@ import java.util.Scanner;
 
 // https://www.hackerrank.com/challenges/journey-to-the-moon/problem
 public class Journey2Moon {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int p = sc.nextInt();
+        Citizen g = new Citizen(n);
+        for (int i = 0; i < p; i++) {
+            g.addEdge(sc.nextInt(), sc.nextInt());
+        }
+        System.out.println(g.dfsMoon());
+    }
+
     static class Citizen {
         public HashMap<Integer, LinkedList<Integer>> l = new HashMap<>();
         private long N;
@@ -50,17 +61,6 @@ public class Journey2Moon {
                 }
             return totalWays;
         }
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int p = sc.nextInt();
-        Citizen g = new Citizen(n);
-        for (int i = 0; i < p; i++) {
-            g.addEdge(sc.nextInt(), sc.nextInt());
-        }
-        System.out.println(g.dfsMoon());
     }
 
 }

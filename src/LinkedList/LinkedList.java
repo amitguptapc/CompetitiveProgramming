@@ -13,6 +13,11 @@ class Node {
 public class LinkedList {
     Node head, ptr;
 
+    public LinkedList() {
+        head = null;
+        ptr = null;
+    }
+
     void add(int d) {
         Node temp = new Node(d);
         if (head == null) {
@@ -31,10 +36,5 @@ public class LinkedList {
             temp = temp.next;
         }
         System.out.println("null");
-    }
-
-    public LinkedList() {
-        head = null;
-        ptr = null;
     }
 }

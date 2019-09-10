@@ -4,17 +4,26 @@ import java.util.Arrays;
 
 // used to detect cycle in a graph
 public class UnionFind {
-    static class Edge {
-        int src, dest;
-
-        void addEdge(int s, int d) {
-            src = s;
-            dest = d;
-        }
-    }
-
     private Edge[] g;
     private int V, E;
+
+    public static void main(String[] args) {
+        UnionFind f = new UnionFind();
+        f.E = 4;
+        f.V = 4;
+        f.g = new Edge[f.E];
+        for (int i = 0; i < f.E; i++)
+            f.g[i] = new Edge();
+        f.g[0].addEdge(0, 1);
+        f.g[1].addEdge(1, 2);
+        f.g[2].addEdge(3, 0);
+        f.g[2].addEdge(2, 3);
+        if (f.isCyclic()) {
+            System.out.println("Cycle Present");
+        } else {
+            System.out.println("No cycle found");
+        }
+    }
 
     private void union(int[] parent, int x, int y) {
         int xp = findParent(x, parent);
@@ -42,21 +51,12 @@ public class UnionFind {
         return false;
     }
 
-    public static void main(String[] args) {
-        UnionFind f = new UnionFind();
-        f.E = 4;
-        f.V = 4;
-        f.g = new Edge[f.E];
-        for (int i = 0; i < f.E; i++)
-            f.g[i] = new Edge();
-        f.g[0].addEdge(0, 1);
-        f.g[1].addEdge(1, 2);
-        f.g[2].addEdge(3, 0);
-        f.g[2].addEdge(2, 3);
-        if (f.isCyclic()) {
-            System.out.println("Cycle Present");
-        } else {
-            System.out.println("No cycle found");
+    static class Edge {
+        int src, dest;
+
+        void addEdge(int s, int d) {
+            src = s;
+            dest = d;
         }
     }
 }

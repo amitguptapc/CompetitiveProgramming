@@ -6,16 +6,6 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 
 public class HOLI {
-    static class Edge {
-        int dest;
-        int weight;
-
-        Edge(int d, int w) {
-            dest = d;
-            weight = w;
-        }
-    }
-
     private static ArrayList<Edge>[] list;
     private static boolean[] visited;
     private static int[] count;
@@ -42,9 +32,9 @@ public class HOLI {
         AmitScan sc = new AmitScan();
         AmitPrint pr = new AmitPrint();
         int t = sc.scanInt();
-        int s, d, w,z=1;
+        int s, d, w, z = 1;
         while (t-- > 0) {
-            ans=0;
+            ans = 0;
             n = sc.scanInt();
             list = new ArrayList[n + 1];
             for (int i = 0; i <= n; i++)
@@ -59,9 +49,19 @@ public class HOLI {
                 list[d].add(new Edge(s, w));
             }
             dfs(1);
-            System.out.println("Case #"+(z++)+": "+ ans);
+            System.out.println("Case #" + (z++) + ": " + ans);
         }
         pr.close();
+    }
+
+    static class Edge {
+        int dest;
+        int weight;
+
+        Edge(int d, int w) {
+            dest = d;
+            weight = w;
+        }
     }
 
     static class AmitScan {

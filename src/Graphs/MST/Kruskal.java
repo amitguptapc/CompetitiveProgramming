@@ -14,28 +14,6 @@ import java.util.Scanner;
  graph must be undirected and weighted
 */
 public class Kruskal {
-    static class Edge {
-        int src;
-        int dest;
-        int weight;
-
-        Edge(int s, int d, int w) {
-            src = s;
-            dest = d;
-            weight = w;
-        }
-    }
-
-    static class Set {
-        int parent;
-        int rank;
-
-        Set(int p, int r) {
-            parent = p;
-            rank = r;
-        }
-    }
-
     private static void union(Set[] list, int x, int y) {
         int xp = find(x, list);
         int yp = find(y, list);
@@ -88,5 +66,27 @@ public class Kruskal {
         for (int i = 0; i < e; i++)
             edges[i] = new Edge(sc.nextInt(), sc.nextInt(), sc.nextInt());
         kruskal(edges, v, e);
+    }
+
+    static class Edge {
+        int src;
+        int dest;
+        int weight;
+
+        Edge(int s, int d, int w) {
+            src = s;
+            dest = d;
+            weight = w;
+        }
+    }
+
+    static class Set {
+        int parent;
+        int rank;
+
+        Set(int p, int r) {
+            parent = p;
+            rank = r;
+        }
     }
 }

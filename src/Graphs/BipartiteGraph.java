@@ -11,6 +11,17 @@ import java.util.Queue;
 // 5. no edge occurs between edges of the same set.
 
 public class BipartiteGraph<T> extends src.Graphs.Graph<T> {
+    public static void main(String[] args) {
+        BipartiteGraph<Integer> g = new BipartiteGraph<>();
+        g.addEdge(0, 1, true);
+        g.addEdge(2, 0, true);
+        g.addEdge(1, 3, true);
+        g.addEdge(2, 3, true);
+        g.addEdge(2, 5, true);
+        g.addEdge(0, 5, true);
+        System.out.println(g.isBipartite(0));
+    }
+
     private boolean isBipartite(T src) {
         Queue<T> q = new LinkedList<>();
         HashMap<T, Integer> colors = new HashMap<>();
@@ -30,16 +41,5 @@ public class BipartiteGraph<T> extends src.Graphs.Graph<T> {
             }
         }
         return true;
-    }
-
-    public static void main(String[] args) {
-        BipartiteGraph<Integer> g = new BipartiteGraph<>();
-        g.addEdge(0, 1, true);
-        g.addEdge(2, 0, true);
-        g.addEdge(1, 3, true);
-        g.addEdge(2, 3, true);
-        g.addEdge(2, 5, true);
-        g.addEdge(0, 5, true);
-        System.out.println(g.isBipartite(0));
     }
 }

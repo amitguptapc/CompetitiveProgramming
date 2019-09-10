@@ -5,6 +5,19 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class BFS<T> extends src.Graphs.Graph<T> {
+    public static void main(String[] args) {
+        BFS<Integer> g = new BFS<>();
+        g.addEdge(0, 1, true);
+        g.addEdge(0, 4, false);
+        g.addEdge(1, 2, true);
+        g.addEdge(1, 3, false);
+        g.addEdge(2, 3, false);
+        g.addEdge(2, 4, true);
+        g.addEdge(3, 4, true);
+        System.out.println("Breadth First Search : ");
+        g.bfs(0);
+    }
+
     private void bfs(T start) {
         Queue<T> q = new LinkedList<>();
         // to store the vertices which are visited
@@ -22,18 +35,5 @@ public class BFS<T> extends src.Graphs.Graph<T> {
             }
         }
         System.out.println();
-    }
-
-    public static void main(String[] args) {
-        BFS<Integer> g = new BFS<>();
-        g.addEdge(0, 1, true);
-        g.addEdge(0, 4, false);
-        g.addEdge(1, 2, true);
-        g.addEdge(1, 3, false);
-        g.addEdge(2, 3, false);
-        g.addEdge(2, 4, true);
-        g.addEdge(3, 4, true);
-        System.out.println("Breadth First Search : ");
-        g.bfs(0);
     }
 }

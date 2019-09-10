@@ -5,6 +5,17 @@ import java.util.Scanner;
 // Greedy algorithm
 // works for undirected, weighted and connected graph
 public class Prim {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int v = sc.nextInt();
+        int e = sc.nextInt();
+        Graph<Integer> g = new Graph<>();
+        while (e-- > 0) {
+            g.addEdge(sc.nextInt(), sc.nextInt(), sc.nextInt());
+        }
+        g.prim(0, -1);
+    }
+
     static class Pair<T> {
         T dest;
         int distance;
@@ -68,17 +79,6 @@ public class Prim {
                 System.out.println(node + " - " + parent.get(node) + " weight " + weight.get(node));
             }
         }
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int v = sc.nextInt();
-        int e = sc.nextInt();
-        Graph<Integer> g = new Graph<>();
-        while (e-- > 0) {
-            g.addEdge(sc.nextInt(), sc.nextInt(), sc.nextInt());
-        }
-        g.prim(0, -1);
     }
 }
 /*

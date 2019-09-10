@@ -1,6 +1,15 @@
 package src.Graphs;
 
 public class ConnectedComponent<T> extends src.Graphs.DFS<T> {
+    public static void main(String[] args) {
+        ConnectedComponent<Integer> g = new ConnectedComponent<>();
+        g.addEdge(0, 1, true);
+        g.addEdge(2, 3, false);
+        g.addEdge(2, 4, true);
+        g.addEdge(3, 4, true);
+        g.connectedComponent(0);
+    }
+
     private void connectedComponent(T src) {
         int component = 1;
         dfs(src);
@@ -13,14 +22,5 @@ public class ConnectedComponent<T> extends src.Graphs.DFS<T> {
             }
         }
         System.out.println("No of components are : " + component);
-    }
-
-    public static void main(String[] args) {
-        ConnectedComponent<Integer> g = new ConnectedComponent<>();
-        g.addEdge(0, 1, true);
-        g.addEdge(2, 3, false);
-        g.addEdge(2, 4, true);
-        g.addEdge(3, 4, true);
-        g.connectedComponent(0);
     }
 }

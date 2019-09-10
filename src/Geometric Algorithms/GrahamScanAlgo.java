@@ -3,32 +3,11 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class GrahamScanAlgo implements Comparator<GrahamScanAlgo.Point> {
-    static class Point {
-        int x;
-        int y;
-
-        Point(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-    }
-
     private static Point start;
 
     private static double polarAngle(Point a) {
         return (1.0 * (start.y - a.y)) / (start.x - a.x);
     }
-
-    public int compare(Point a, Point b) {
-        double ans = polarAngle(a) - polarAngle(b);
-        System.out.println(ans);
-        if (ans > 0)
-            return 1;
-        else if (ans < 0)
-            return -1;
-        else return 0;
-    }
-
 
     private static void convexHull(Point[] points, int n) {
 
@@ -57,5 +36,25 @@ public class GrahamScanAlgo implements Comparator<GrahamScanAlgo.Point> {
         for (int i = 0; i < n; i++)
             points[i] = new Point(sc.nextInt(), sc.nextInt());
         convexHull(points, n);
+    }
+
+    public int compare(Point a, Point b) {
+        double ans = polarAngle(a) - polarAngle(b);
+        System.out.println(ans);
+        if (ans > 0)
+            return 1;
+        else if (ans < 0)
+            return -1;
+        else return 0;
+    }
+
+    static class Point {
+        int x;
+        int y;
+
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
     }
 }
