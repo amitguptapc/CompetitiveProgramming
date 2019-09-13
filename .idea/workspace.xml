@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added questions on Fenwick and Segment Tree">
-      <change afterPath="$PROJECT_DIR$/src/Trees/LCA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/TopView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/amit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/amit.xml" afterDir="false" />
+    <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="Added Longest Palindromic Subsequence &amp; Longest Bitonic Subsequence.">
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/Boredom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/FARIDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/LPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/LongestBitonicSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynamic_Programming/NumbersInPi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/CheckBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Kadane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Kadane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Segment_Trees/Kadane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Segment_Trees/Kadane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EditDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/EditDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/WineProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/WineProblem.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,13 +109,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LCA">
-    <configuration name="CBNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion_N_Backtracking.CBNumbers" />
+  <component name="RunManager" selected="Application.FARIDA">
+    <configuration name="Boredom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dynamic_Programming.Boredom" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion_N_Backtracking.*" />
+          <option name="PATTERN" value="Dynamic_Programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,19 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoinChange" />
-      <module name="CodingBlocks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.LCA" />
+    <configuration name="CodesOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_N_Backtracking_Challenges.CodesOfString" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="Recursion_N_Backtracking_Challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +136,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmartKeypadAdvanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SmartKeypadAdvanced" />
+    <configuration name="FARIDA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dynamic_Programming.FARIDA" />
       <module name="CodingBlocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dynamic_Programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.TopView" />
+    <configuration name="LPS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dynamic_Programming.LPS" />
       <module name="CodingBlocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.*" />
+          <option name="PATTERN" value="Dynamic_Programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestBitonicSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dynamic_Programming.LongestBitonicSub" />
+      <module name="CodingBlocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dynamic_Programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CBNumbers" />
-      <item itemvalue="Application.CoinChange" />
-      <item itemvalue="Application.TopView" />
-      <item itemvalue="Application.SmartKeypadAdvanced" />
-      <item itemvalue="Application.LCA" />
+      <item itemvalue="Application.CodesOfString" />
+      <item itemvalue="Application.LPS" />
+      <item itemvalue="Application.LongestBitonicSub" />
+      <item itemvalue="Application.Boredom" />
+      <item itemvalue="Application.FARIDA" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LCA" />
-        <item itemvalue="Application.SmartKeypadAdvanced" />
-        <item itemvalue="Application.TopView" />
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.CBNumbers" />
+        <item itemvalue="Application.FARIDA" />
+        <item itemvalue="Application.Boredom" />
+        <item itemvalue="Application.CodesOfString" />
+        <item itemvalue="Application.LongestBitonicSub" />
+        <item itemvalue="Application.LPS" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +433,16 @@
       <workItem from="1568022105935" duration="4711000" />
       <workItem from="1568060425835" duration="3897000" />
       <workItem from="1568120066717" duration="7283000" />
-      <workItem from="1568148258860" duration="870000" />
+      <workItem from="1568148258860" duration="1785000" />
+      <workItem from="1568198971264" duration="594000" />
+      <workItem from="1568202776544" duration="5198000" />
+      <workItem from="1568230532732" duration="692000" />
+      <workItem from="1568308174751" duration="2875000" />
+      <workItem from="1568356776727" duration="5585000" />
+      <workItem from="1568385689213" duration="8115000" />
+      <workItem from="1568404460812" duration="352000" />
+      <workItem from="1568405893237" duration="283000" />
+      <workItem from="1568406249776" duration="6977000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>
@@ -503,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568121688776</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Top View &amp; Lowest Common Ancestor in tree.">
+      <created>1568149611475</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568149611475</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +585,9 @@
     <MESSAGE value="Added Union Find, Union Rank &amp; Kruskal's Algorithm." />
     <MESSAGE value="Added questions on Fenwick and Segment Tree" />
     <MESSAGE value="Added questions on graph." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added questions on graph." />
+    <MESSAGE value="Added Top View &amp; Lowest Common Ancestor in tree." />
+    <MESSAGE value="Added Longest Palindromic Subsequence &amp; Longest Bitonic Subsequence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Longest Palindromic Subsequence &amp; Longest Bitonic Subsequence." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

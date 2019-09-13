@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class WineProblem {
     private static int[][] memo;
 
-    // Pure Dp
+    // Pure DP
     private static int maxProfit3(int[] price, int n) {
         int[][] a = new int[n][n];
         int year = n;

@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class EditDistance {
     private static int[][] memo;
 
+    // convert r to s
     // Pure DP
     private static int editDist3(String r, String s) {
         int m = r.length(), n = s.length();
