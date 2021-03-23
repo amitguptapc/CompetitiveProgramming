@@ -70,8 +70,8 @@ public class SHOPTRIP {
                 for (int j = 0; j <= n; j++)
                     dist[i][j] = distance(coord.get(i), coord.get(j));
 
-            dp = new double[(int) Math.pow(2, k)][n + 1];
-            for (int i = 0; i < Math.pow(2, k); i++)
+            dp = new double[1 << k][n + 1];
+            for (int i = 0; i < (1 << k); i++)
                 for (int j = 0; j <= n; j++)
                     dp[i][j] = -1;
 

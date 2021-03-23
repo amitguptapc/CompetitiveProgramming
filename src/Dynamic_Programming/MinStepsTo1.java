@@ -49,7 +49,6 @@ public class MinStepsTo1 {
         z = 1 + reduce1(n - 1);
         return Math.min(x, Math.min(y, z));
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

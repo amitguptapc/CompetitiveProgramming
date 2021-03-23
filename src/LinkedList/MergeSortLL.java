@@ -29,7 +29,7 @@ public class MergeSortLL {
     }
 
     private static Node mergeSort(Node head) {
-        // n node or single node case
+        // no node or single node case
         if (head == null || head.next == null)
             return head;
         Node middle = findMiddle(head);

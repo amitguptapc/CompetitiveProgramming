@@ -12,7 +12,7 @@ public class Subsequences {
             System.out.println(pre + s);
             return;
         }
-        subsequence(pre + s.charAt(0), s.substring(1));
-        subsequence(pre, s.substring(1));
+        subsequence(pre + s.charAt(0), s.substring(1)); // including a character
+        subsequence(pre, s.substring(1)); // excluding a character
     }
 }

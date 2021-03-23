@@ -26,7 +26,7 @@ public class CycleDetectionBFS<T> extends src.Graphs.Graph<T> {
         while (!q.isEmpty()) {
             T node = q.poll();
             for (T neighbour : adjList.get(node)) {
-                if (visited.contains(neighbour) && !parent.get(node).equals(neighbour))
+                if (visited.contains(neighbour) && !parent.get(neighbour).equals(node))
                     return true;
                 else if (!visited.contains(neighbour)) {
                     visited.add(neighbour);

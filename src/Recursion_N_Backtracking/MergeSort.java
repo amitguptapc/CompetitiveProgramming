@@ -30,7 +30,7 @@ public class MergeSort {
 
         // right subarray
         int n2 = end - mid;
-        int R[] = new int[n2];
+        int[] R = new int[n2];
         for (int i = 0; i < n2; i++)
             R[i] = a[mid + 1 + i];
 

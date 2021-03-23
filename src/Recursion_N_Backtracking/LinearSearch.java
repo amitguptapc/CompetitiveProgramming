@@ -4,7 +4,7 @@ public class LinearSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int a[] = new int[n];
+        int[] a = new int[n];
         for (int i = 0; i < n; i++)
             a[i] = sc.nextInt();
         int key = sc.nextInt();
@@ -15,7 +15,7 @@ public class LinearSearch {
             System.out.println("Found at index " + res);
     }
 
-    private static int search(int a[], int n, int k) {
+    private static int search(int[] a, int n, int k) {
         if (n < 1)
             return -1;
         if (a[n - 1] == k)

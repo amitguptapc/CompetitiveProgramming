@@ -17,16 +17,17 @@ public class UniqueNo2 {
 
     private static void findUniq2(int[] a, int n, int x) {
         int y = x;
-        int i = 0;
+        int pos = 0;
         while (y > 0) {
             if ((y & 1) == 1)
                 break;
-            i++;
+            pos++;
             y >>= 1;
         }
         int firstNo = 0;
-        for (int k = 0; k < n; k++) {
-            firstNo ^= (a[k] & (1 << i)) == 1 ? a[k] : 0;
+        int mask = 1 << pos;
+        for (int i = 0; i < n; i++) {
+            firstNo ^= (a[i] & mask) > 0 ? a[i] : 0;
         }
         int secondNo = firstNo ^ x;
         System.out.println(firstNo < secondNo ? (firstNo + " " + secondNo) : (secondNo + " " + firstNo));

@@ -170,11 +170,13 @@ public class Crossword {
 
         // find the first empty cell from down side of crossword
         outer:
-        for (int i = 9; i >= 0; i--)
-            for (int j = 0; j <= 9; j++)
+        for (int i = 9; i >= 0; i--) {
+            for (int j = 0; j <= 9; j++) {
                 if (grid[i][j] != '+') {
                     solveCrossword(grid, set, i, j);
                     break outer;
                 }
+            }
+        }
     }
 }

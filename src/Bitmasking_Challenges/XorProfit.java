@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
 public class XorProfit {
-    private static int maxXor(int x, int y) {
-        int xor = x ^ y;
-        int pos = 0;
+    private static long maxXor(long x, long y) {
+        long xor = x ^ y;
+        long pos = 0;
         while (xor > 0) {
             pos++;
             xor = xor >> 1;
         }
-        return (2 << pos - 1) - 1;
+        return (1L << pos) - 1;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int y = sc.nextInt();
+        long x = sc.nextLong();
+        long y = sc.nextLong();
         System.out.println(maxXor(x, y));
     }
 }

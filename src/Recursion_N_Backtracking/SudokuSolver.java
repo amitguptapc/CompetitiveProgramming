@@ -7,11 +7,11 @@ public class SudokuSolver {
             if (grid[x][i] == num || grid[i][y] == num)
                 return false;
 
-        // sx and sy store the starting index of the grid to which the given element belongs
+        // sx and sy store the starting index of the subgrid to which the given element belongs
         int sx = (x / 3) * 3;
         int sy = (y / 3) * 3;
 
-        // check for the presence of num in the grid
+        // check for the presence of num in the subgrid
         for (int i = sx; i < sx + 3; i++)
             for (int j = sy; j < sy + 3; j++)
                 if (grid[i][j] == num)
@@ -24,10 +24,16 @@ public class SudokuSolver {
         // base case : when all cells are filled
         if (i == 9) {
             for (int r = 0; r < 9; r++) {
-                for (int c = 0; c < 9; c++)
+                if (r % 3 == 0)
+                    System.out.println("+-------+-------+-------+");
+                for (int c = 0; c < 9; c++) {
+                    if (c % 3 == 0)
+                        System.out.print("| ");
                     System.out.print(grid[r][c] + " ");
-                System.out.println();
+                }
+                System.out.println("|");
             }
+            System.out.println("+-------+-------+-------+");
             return true;
         }
 

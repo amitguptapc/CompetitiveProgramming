@@ -13,6 +13,8 @@ public class ConvA2B {
         System.out.println(countSetBits(c));
     }
 
+    // 1. find bits which vary using XOR
+    // 2. count the set bits in XOR
     private static int countSetBits(int a) {
         int count = 0;
         while (a > 0) {

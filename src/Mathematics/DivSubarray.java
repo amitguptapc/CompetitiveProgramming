@@ -1,5 +1,7 @@
 package src.Mathematics;
 
+//https://hack.codingblocks.com/app/practice/3/1065/problem
+
 import java.util.Scanner;
 
 public class DivSubarray {

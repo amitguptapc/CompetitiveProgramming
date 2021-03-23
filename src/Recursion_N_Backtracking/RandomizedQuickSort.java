@@ -9,32 +9,31 @@ public class RandomizedQuickSort {
         int[] a = new int[n];
         for (int i = 0; i < n; i++)
             a[i] = sc.nextInt();
+        shuffle(a,n);
         quickSort(a, 0, n - 1);
         System.out.println(Arrays.toString(a));
     }
 
-    private static void shuffle(int[] a, int start, int end) {
+    private static void shuffle(int[] a, int n) {
         Random ran = new Random();
-        for (int i = start; i <= end; i++) {
-            int num = start + ran.nextInt(end - start + 1);
+        for (int i = n - 1; i > 0; i--) {
+            int ri = ran.nextInt(i);
             int temp = a[i];
-            a[i] = a[num];
-            a[num] = temp;
+            a[i] = a[ri];
+            a[ri] = temp;
         }
     }
 
     private static void quickSort(int[] a, int start, int end) {
         if (start >= end)
             return;
-        shuffle(a, start, end);
-        int mid = partition(a, start, end);
-        quickSort(a, start, mid);
-        quickSort(a, mid + 1, end);
+        int pivot = partition(a, start, end);
+        quickSort(a, start, pivot - 1);
+        quickSort(a, pivot + 1, end);
     }
 
     private static int partition(int[] a, int start, int end) {
-        int i = start - 1;
-        int pivot = a[end];
+        int i = start - 1, pivot = a[end];
         for (int j = start; j < end; j++) {
             if (a[j] < pivot) {
                 i++;

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class N2048 {
-    private static String[] spellings = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+    private static final String[] spellings = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

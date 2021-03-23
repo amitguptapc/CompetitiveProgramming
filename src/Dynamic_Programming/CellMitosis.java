@@ -20,6 +20,7 @@ public class CellMitosis {
                     dp[i - 1] + y, // increase cells by 1
                     dp[(i + 1) / 2] + x + z // double the cells and decrease by 1
             );
+
         }
         return dp[n];
     }

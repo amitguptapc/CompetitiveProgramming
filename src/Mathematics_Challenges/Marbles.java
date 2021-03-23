@@ -10,7 +10,7 @@ public class Marbles {
             long n = sc.nextLong();
             long k = sc.nextLong();
             long p;
-            p = (n - k) < (k - 1) ? (n - k) : (k - 1);
+            p = Math.min((n - k), (k - 1));
             n -= 1;
             // find C(n,p)
             BigInteger ans = BigInteger.ONE;

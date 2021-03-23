@@ -7,12 +7,12 @@ public class TowerOfHanoi {
         TOH(n, 'A', 'B', 'C');
     }
 
-    // Move N disks from source peg to destination peg using auxillary peg
-    private static void TOH(int n, char source, char auxillary, char destination) {
+    // Move N disks from source peg to destination peg using auxiliary peg
+    private static void TOH(int n, char source, char auxiliary, char destination) {
         if (n == 0)
             return;
-        TOH(n - 1, source, destination, auxillary);
-        System.out.println("Move " + n + " th disk from peg " + source + " to peg " + destination);
-        TOH(n - 1, auxillary, source, destination);
+        TOH(n - 1, source, destination, auxiliary); // Move n-1 disks from source to auxiliary using destination
+        System.out.println("Move " + n + " th disk from peg " + source + " to peg " + destination); // Move nth disk from source to destination
+        TOH(n - 1, auxiliary, source, destination); // Move n-1 disks from auxiliary to destination using source
     }
 }

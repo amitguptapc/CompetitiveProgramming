@@ -11,7 +11,7 @@ public class Pivot {
                 System.out.println(mid);
                 break;
             }
-            if (a[start] >= a[mid]) // when left part is unsorted
+            if (a[start] > a[mid]) // when left part is unsorted
                 end = mid - 1;
             else
                 start = mid + 1;

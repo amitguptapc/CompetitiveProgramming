@@ -1,17 +1,13 @@
-// TSP finds the minimum weight hamiltonian cycle
-// every node is visited only once and return back to the starting node.
+import java.util.Scanner;
 
+// TSP finds the minimum weight hamiltonian cycle
+// every node is visited once and return back to the starting node.
 // Complexity of Memoized solution is (2^n)*n
 public class TSP {
-    private static int n = 4;
-    private static int[][] dist = {
-            {0, 20, 42, 25},
-            {20, 0, 30, 34},
-            {42, 30, 0, 10},
-            {25, 34, 10, 0}
-    };
+    private static int n;
+    private static int[][] dist;
     private static int[][] dp;
-    private static int visitedAll = (1 << n) - 1;
+    private static int visitedAll;
 
     private static int tsp(int mask, int pos) {
         if (mask == visitedAll)
@@ -30,8 +26,15 @@ public class TSP {
     }
 
     public static void main(String[] args) {
-        dp = new int[(int) Math.pow(2, n)][n];
-        for (int i = 0; i < Math.pow(2, n); i++)
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        visitedAll = (1 << n) - 1;
+        dp = new int[1 << n][n];
+        dist = new int[n][n];
+        for (int i = 0; i < n; i++) // input of adjacency matrix
+            for (int j = 0; j < n; j++)
+                dist[i][j] = sc.nextInt();
+        for (int i = 0; i < 1 << n; i++)
             for (int j = 0; j < n; j++)
                 dp[i][j] = -1;
         System.out.println(tsp(1, 0));

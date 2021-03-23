@@ -1,12 +1,13 @@
 package Mathematics;
 
+// https://www.codechef.com/problems/DIVSUBS
+
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
 import java.util.InputMismatchException;
 
-// ref book
 public class DIVSUBS {
 
     // begin of solution
@@ -46,9 +47,9 @@ public class DIVSUBS {
     // end of solution
 
     static class AmitScan {
-        private byte[] buf = new byte[1024]; // Buffer of Bytes
+        private final byte[] buf = new byte[1024]; // Buffer of Bytes
         private int index;
-        private InputStream in;
+        private final InputStream in;
         private int total;
 
         AmitScan() {

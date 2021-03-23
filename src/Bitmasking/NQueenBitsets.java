@@ -5,8 +5,6 @@ package src.Bitmasking;
 import java.util.BitSet;
 import java.util.Scanner;
 
-// Complexity O(1)
-
 public class NQueenBitsets {
     private static BitSet d1, d2, col;
     private static int ans = 0;
@@ -17,12 +15,12 @@ public class NQueenBitsets {
         d1 = new BitSet(2 * n - 1);
         d2 = new BitSet(2 * n - 1);
         col = new BitSet(n);
-        int a[][] = new int[n][n];
+        int[][] a = new int[n][n];
         solve(0, n, a);
         System.out.println("No of possible solutions are : " + ans);
     }
 
-    private static void solve(int r, int n, int a[][]) {
+    private static void solve(int r, int n, int[][] a) {
         if (r == n) {
             for (int k = 0; k < n; k++) {
                 for (int l = 0; l < n; l++)

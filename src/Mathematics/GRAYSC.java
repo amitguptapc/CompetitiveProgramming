@@ -9,7 +9,7 @@ public class GRAYSC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        // if n>=130 this means that there will be at least 65 pairs
+        // if n >= 130 this means that there will be at least 65 pairs
         // so at least one bit will be set for more than 1 number for 64 bit
         if (n >= 130) {
             System.out.println("Yes");

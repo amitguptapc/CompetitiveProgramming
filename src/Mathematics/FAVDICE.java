@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 // Coupon Collector Problem
 public class FAVDICE {
-    private static DecimalFormat df = new DecimalFormat("0.00");
+    private static final DecimalFormat df = new DecimalFormat("0.00");
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

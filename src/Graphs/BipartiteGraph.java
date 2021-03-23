@@ -8,7 +8,7 @@ import java.util.Queue;
 // 2. bipartite graph can be colored with 2 colors only
 // 3. all the vertices can be divided into 2 sets
 // 4. edge exists between vertices of different sets
-// 5. no edge occurs between edges of the same set.
+// 5. no edge occurs between vertices of the same set.
 
 public class BipartiteGraph<T> extends src.Graphs.Graph<T> {
     public static void main(String[] args) {
