@@ -2,437 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d7019e-d3f1-4fb7-81f5-6633d2a1176e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bitmasking/CountSetBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bitmasking/Decimal2Binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bitmasking/FastExpoBitMask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bitmasking/NQueenBitmask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bitmasking/ReplaceBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bitmasking_Challenges/SUBSUMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number_Theory/SegmentedSieve (pop-os's conflicted copy 2021-03-15).java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/SagheerHausmeister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/ExpandPond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/FunkyChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/MinimumTimeTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/NQueenHard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fenwick_Trees_Challenges/ModifiedLIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game_Theory_Challenges/ExponentialGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game_Theory_Challenges/FactorizationGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game_Theory_Challenges/GameTheory3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game_Theory_Challenges/MikeAndInfiniteGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game_Theory_Challenges/StringGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/amit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/amit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default (amit-HP-Pavilion-Notebook's conflicted copy 2019-02-19).xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default (amit-HP-Pavilion-Notebook's conflicted copy 2019-02-19).xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/AVLTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection$Activity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ActivitySelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/AggressiveCows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/AliceTotient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BRIDGES$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BRIDGES$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BRIDGES$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BRIDGES.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Backtracking/Crossword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Backtracking/NQueen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Backtracking/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Backtracking/RatInMaze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Backtracking/SudokuSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BeautifulVertices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BiasedStandings$Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BiasedStandings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BigGCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BinSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BinaryString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BookAllocation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BostonNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/BubbleSortAlgo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Busyman$Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Busyman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/CROSSWORD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/CRT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/CatalanNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/CellMitosis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/CheckSorted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Chicago.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ChoosingNo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Chopsticks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ClassAssignment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/CoinChange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ConnectingWires.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DeepakAndJourney.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DeepakNPrimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DeepakNPrimes2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DefenseOfKingdom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DiceExpectation1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DictionaryOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary$Trie$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary$Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DigitalDictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DijkstraAlgo$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DijkstraAlgo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DiophantineEq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DividingArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/DiwaliPuzzle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EditDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientFib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EfficientINVCNT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EggDropPuzzle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EvaluatingFunc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/EvenNOddDivisors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ExchangingCoins.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ExtendedEuclid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FIBOSUM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FastFibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FastModuloExpo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FastTiling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Fenwick_Trees_Challenges/D3Structure$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Fenwick_Trees_Challenges/D3Structure$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Fenwick_Trees_Challenges/D3Structure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FermatTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Fib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FibonacciGCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FindIt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FloydWarshall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FractionalKnapsack$Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FractionalKnapsack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FriendsPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FriendsPairing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/FriendsPairingProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GCDnLCM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GSS1$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GSS1$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GSS1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Game1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Game2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Game3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Game2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Game2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GameOfStones1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GameTheory1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GameTheory2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GrahamScanAlgo$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GrahamScanAlgo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GrandTemple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/MST/Kruskal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/MST/Kruskal$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/MST/Kruskal$Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/MST/Kruskal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/ShortestPath/BellmanFord$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/ShortestPath/BellmanFord$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/ShortestPath/BellmanFord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/ShortestPath/Dijkstra$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/ShortestPath/Dijkstra$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/ShortestPath/Dijkstra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/StronglyConnectedComponent/Kosaraju$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/StronglyConnectedComponent/Kosaraju.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Graphs/StronglyConnectedComponent/Tarjan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GrundyNo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI_Spoj$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI_Spoj$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI_Spoj$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HOLI_Spoj.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HeadExpectation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/GameTheory1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/GameTheory1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HorseGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/HostelVisit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/INVCNT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/IncreasingDecreasing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/InterviewCand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/InvCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/InversionCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/JarvisAlgo$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/JarvisAlgo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/JobForBounties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/KLCS$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/KLCS$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/KLCS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Kadane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LCS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LIS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LISModified.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LazyRMQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LightsNewCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LinearCongruence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LinearSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LinkedList/AddNtoLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LinkedList/KReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LinkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LinkedList/MergeSortLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LinkedList/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LinkedList/QuickSortLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/LowerNUpperBound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/META-INF/CodingBlocks.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MMMGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Marbles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MathDay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/FAVDICE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/ModuloSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQueries1$Matrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQueries1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQuery$Matrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MatrixQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircle$Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircles$Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxCircles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxSumQuery$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxSumQuery$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxSumQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MaxXorArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MedianSortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MergeSortArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MikeHashTrick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MillerRabinTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MinCostPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MinHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MinQuery1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MinStepsTo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mixtures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ModularExpo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MoneyChange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MultiModuloInv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Multiplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MultiplicativeInv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/MurthalParantha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/N2048.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/NKnight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/NaiveAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/NoSamePermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/NotSoEasyMath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/NumberOfDivisors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/OneCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/OptimalGameStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/OptimalGameStrategy1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/OptimalGameStrategy2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PRATA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PainterPartition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PairOfRoses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Pairing$Cities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Pairing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Parenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PhoneKeypad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PilesAgain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Pivot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PivotOfSorted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PlayWithBits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PlayingWithDivisors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Power.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PowerLogN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PreMaxElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Prim$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Prim$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Prim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PrimalityTesting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Prime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PrimeFactor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PrintLCS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QCJ3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QueryBits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QuickS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QuickSortArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RMQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RabinKarp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RahulSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RandomQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RandomizedQuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RangeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RangeSumQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RatInaMaze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ReadThePages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RecBinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Recursion_N_Backtracking/CBNumbers$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Recursion_N_Backtracking/CBNumbers$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Recursion_N_Backtracking/CBNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Recursion_N_Backtracking_Challenges/CodesOfString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RobotPaths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RobotPoints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RockScissorPaper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RodCutting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RotatedArraySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SEQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SHOPTRIP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SNACKUP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SPP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SegmentedSieve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SelectionSortAlgo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ShortestPath$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ShortestPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SieveOE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SmartKeypad1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SmartKeypadAdvanced.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SnakeNLadder$Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SnakeNLadder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SquareRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/StaircaseProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/StationBalance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/StringCodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/StringSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/StringToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/StringWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SubarraySum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Subsequences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SubsetSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SumItUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SwapNodes$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SwapNodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TilingProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TilingProblem2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Totient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TowerOfHanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Tprime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trees/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trees/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trees/BinaryTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trees/DiameterBasic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trees/DiameterBetter$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trees/DiameterBetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TrickyPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trie$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TrominoTiling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/UPDATEIT$AmitPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/UPDATEIT$AmitScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/UPDATEIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/UltraFastMath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/UniqueNo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/UniqueNo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/UniqueNo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Unlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ValentineMagic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/ViratNFact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/VivekNbirthday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/VivekNparty$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/VivekNparty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/WildcardMatching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/WineProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/XOR4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/XorProfit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/BasicOp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/ConvA2B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/EvenOdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/IncredibleHulk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/NQueenBitsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/PayingUpCC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/SubseqOfStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Bitmasking/TavasAndSaDDas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/AdjacencyList$Graph1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/AdjacencyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BFSTopologicalSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/BipartiteGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/ConnectedComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/CycleDetectionDFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/DFSTopologicalSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/FloodFill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Journey2Moon$Citizen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/Journey2Moon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/SSSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/SnakeAndLadder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionFind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank$Prank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Graphs/UnionRank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/AMR12G_SPOJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/BdayParadox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/BigFactorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/BigIntDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/BirthdayParadox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/CarsPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/Figureful_SPOJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/HashingDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/Julka_SPOJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/Lotto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/PriorityQDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/QueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/SqrRoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/StackDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Introduction/VectorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Mathematics/DivSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Mathematics/FastExpo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Mathematics/GRAYSC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Mathematics/NKLadder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Mathematics/SEQ_Spoj.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking/BasicOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking/BasicOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking/ConvA2B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking/ConvA2B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking/IncredibleHulk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking_Challenges/IncredibleHulk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking/NQueenBitsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking/NQueenBitsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking/PayingUpCC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking/PayingUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking/TavasAndSaDDas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking_Challenges/TavasAndSaDDas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking_Challenges/NotSoEasyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking_Challenges/NotSoEasyMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking_Challenges/UniqueNo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking_Challenges/UniqueNo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking_Challenges/UniqueNo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking_Challenges/UniqueNo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking_Challenges/UniqueNo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking_Challenges/UniqueNo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bitmasking_Challenges/XorProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bitmasking_Challenges/XorProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/CellMitosis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/CellMitosis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/MinStepsTo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/MinStepsTo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/SHOPTRIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/SHOPTRIP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/TSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/TSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BipartiteGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BipartiteGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/CycleDetectionBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/CycleDetectionBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/MergeSortLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MergeSortLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics/DIVSUBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/DIVSUBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics/DivSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/DivSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics/FAVDICE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/FAVDICE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics/GRAYSC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/GRAYSC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics/SEQ_Spoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/SEQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics_Challenges/Marbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics_Challenges/Marbles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics_Challenges/RandomQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics_Challenges/RandomQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Number_Theory/SieveOE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Number_Theory/SieveOE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/BinaryString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/BinaryString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/CROSSWORD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/CROSSWORD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/ClassAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/ClassAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/CodesOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/CodesOfString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/DictionaryOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/DictionaryOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/FriendsPairingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/FriendsPairingProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/NKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/NKnight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/NoSamePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/NoSamePermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/OptimalGameStrategy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/OptimalGameStrategy1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/OptimalGameStrategy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/OptimalGameStrategy2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/GenerateParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/RatInaMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/RatInaMaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/RobotPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/RobotPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/SmartKeypad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/SmartKeypad1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/SmartKeypadAdvanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/SmartKeypadAdvanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/StringCodes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/SubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/SumItUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/SumItUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/TilingProblem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/TilingProblem2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_ Backtracking_Challenges/TrickyPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking_Challenges/TrickyPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Crossword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Crossword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/LinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/N2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/N2048.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/PhoneKeypad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/PhoneKeypad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/RandomizedQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/RandomizedQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/RecBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/RecBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Subsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/Subsequences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/SudokuSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_N_Backtracking/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_N_Backtracking/TowerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Marbles (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Marbles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Marbles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS$AmitPrint (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS$AmitPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS$AmitPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS$AmitScan (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS$AmitScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS$AmitScan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/DIVSUBS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/FAVDICE (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/FAVDICE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/Mathematics/FAVDICE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/PilesAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/PilesAgain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/Pivot (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/QCJ3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/QCJ3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RandomQuery (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/RandomQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/RandomQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SegmentedSieve (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/SquareRoot (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/TrominoTiling (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Mathematics/DivSubarray (pop-os's conflicted copy 2021-03-15).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingBlocks/src/Mathematics/DivSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingBlocks/src/Mathematics/DivSubarray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Theory/Game2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Theory/Game2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Theory/HorseGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Theory/KnightGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Theory/QCJ3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Theory/QCJ3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Theory_Challenges/GameOfStones1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Theory_Challenges/GameOfStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Theory_Challenges/GameTheory1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Theory_Challenges/GameTheory1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Theory_Challenges/PilesAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Theory_Challenges/PilesAgain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -524,74 +132,69 @@
       <command value="CycleDetectionDFS" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pivot">
-    <configuration name="LowerNUpperBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LowerNUpperBound" />
+  <component name="RunManager" selected="Application.StringGame">
+    <configuration name="ExponentialGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExponentialGame" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pivot" />
+    <configuration name="FactorizationGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactorizationGame" />
       <module name="CodingBlocks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SEQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Mathematics.SEQ" />
+    <configuration name="GameTheory3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameTheory3" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Mathematics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SUBSUMS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bitmasking_Challenges.SUBSUMS" />
+    <configuration name="MikeAndInfiniteGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MikeAndInfiniteGrid" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bitmasking_Challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TavasAndSaDDas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bitmasking_Challenges.TavasAndSaDDas" />
+    <configuration name="StringGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringGame" />
       <module name="CodingBlocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bitmasking_Challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TavasAndSaDDas" />
-      <item itemvalue="Application.LowerNUpperBound" />
-      <item itemvalue="Application.SUBSUMS" />
-      <item itemvalue="Application.SEQ" />
-      <item itemvalue="Application.Pivot" />
+      <item itemvalue="Application.GameTheory3" />
+      <item itemvalue="Application.ExponentialGame" />
+      <item itemvalue="Application.FactorizationGame" />
+      <item itemvalue="Application.MikeAndInfiniteGrid" />
+      <item itemvalue="Application.StringGame" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pivot" />
-        <item itemvalue="Application.SEQ" />
-        <item itemvalue="Application.SUBSUMS" />
-        <item itemvalue="Application.LowerNUpperBound" />
-        <item itemvalue="Application.TavasAndSaDDas" />
+        <item itemvalue="Application.StringGame" />
+        <item itemvalue="Application.MikeAndInfiniteGrid" />
+        <item itemvalue="Application.FactorizationGame" />
+        <item itemvalue="Application.ExponentialGame" />
+        <item itemvalue="Application.GameTheory3" />
       </list>
     </recent_temporary>
   </component>
@@ -908,6 +511,10 @@
       <workItem from="1615451162876" duration="90000" />
       <workItem from="1615451332859" duration="14000" />
       <workItem from="1615804337575" duration="151000" />
+      <workItem from="1616507516204" duration="2441000" />
+      <workItem from="1616562910534" duration="1273000" />
+      <workItem from="1616576286490" duration="4509000" />
+      <workItem from="1616642734677" duration="22604000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1549803947013</created>

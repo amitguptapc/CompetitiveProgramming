@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Similar to QCJ3
 public class PilesAgain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

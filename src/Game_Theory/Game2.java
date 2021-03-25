@@ -9,9 +9,8 @@ import java.util.TreeSet;
 public class Game2 {
     private static int findMex(TreeSet<Integer> s) {
         int c = 0;
-        while (s.size() != 0 && s.first() == c) {
+        while (s.contains(c)) {
             c++;
-            s.pollFirst();
         }
         return c;
     }

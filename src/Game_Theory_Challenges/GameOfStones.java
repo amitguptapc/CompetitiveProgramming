@@ -1,8 +1,6 @@
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.TreeSet;
+import java.util.*;
 
-public class GameOfStones1 {
+public class GameOfStones {
     private static HashMap<Integer, Integer> map;
 
     private static int findMex(TreeSet<Integer> s) {
