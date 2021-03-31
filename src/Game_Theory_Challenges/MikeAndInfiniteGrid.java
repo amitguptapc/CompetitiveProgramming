@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.*;
+import java.util.StringTokenizer;
 
 // https://www.codechef.com/AUG11/problems/IGAME
 public class MikeAndInfiniteGrid {

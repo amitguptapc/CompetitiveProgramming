@@ -46,7 +46,7 @@ public class CBNumbers {
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
                 num = Long.parseLong(s.substring(i, j + 1));
-                if (checkCB(num) && isValid(valid, i, j + 1))    {
+                if (checkCB(num) && isValid(valid, i, j + 1)) {
                     count++;
                     for (int k = i; k <= j; k++)
                         valid[k] = true;

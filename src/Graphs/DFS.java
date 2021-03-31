@@ -21,10 +21,8 @@ public class DFS<T> extends src.Graphs.Graph<T> {
     void dfs(T node) {
         visited.add(node);
         System.out.print(node + " ");
-        for (T neighbour : adjList.get(node)) {
-            if (!visited.contains(neighbour)) {
+        for (T neighbour : adjList.get(node))
+            if (!visited.contains(neighbour))
                 dfs(neighbour);
-            }
-        }
     }
 }

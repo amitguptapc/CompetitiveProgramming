@@ -12,12 +12,10 @@ public class UnionFind {
         f.E = 4;
         f.V = 4;
         f.g = new Edge[f.E];
-        for (int i = 0; i < f.E; i++)
-            f.g[i] = new Edge();
-        f.g[0].addEdge(0, 1);
-        f.g[1].addEdge(1, 2);
-        f.g[2].addEdge(3, 0);
-        f.g[2].addEdge(2, 3);
+        f.g[0] = new Edge(0, 1);
+        f.g[1] = new Edge(1, 2);
+        f.g[2] = new Edge(3, 0);
+        f.g[2] = new Edge(2, 3);
         if (f.isCyclic()) {
             System.out.println("Cycle Present");
         } else {
@@ -54,7 +52,7 @@ public class UnionFind {
     static class Edge {
         int src, dest;
 
-        void addEdge(int s, int d) {
+        public Edge(int s, int d) {
             src = s;
             dest = d;
         }

@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
+import java.util.TreeSet;
 
 public class GameTheory3 {
     private static HashMap<Long, Long> memo = new HashMap<>();

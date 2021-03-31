@@ -41,7 +41,7 @@ public class LongestBitonicSub {
         }
         int max = 0;
         for (int i = 0; i < n; i++) {
-            dp2[i] += dp1[i]-1;
+            dp2[i] += dp1[i] - 1;
             max = Math.max(max, dp2[i]);
         }
         return max;

@@ -57,7 +57,7 @@ public class Journey2Moon {
                 if (!visited.get(node)) {
                     size = 0;
                     dfs(node, visited);
-                    totalWays -= size * (size - 1) / 2;
+                    totalWays -= (long) size * (size - 1) / 2;
                 }
             return totalWays;
         }

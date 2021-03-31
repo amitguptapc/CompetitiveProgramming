@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class SumItUp {
     private static Set<String> set;

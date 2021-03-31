@@ -9,7 +9,7 @@ public class RandomizedQuickSort {
         int[] a = new int[n];
         for (int i = 0; i < n; i++)
             a[i] = sc.nextInt();
-        shuffle(a,n);
+        shuffle(a, n);
         quickSort(a, 0, n - 1);
         System.out.println(Arrays.toString(a));
     }

@@ -12,7 +12,7 @@ public class ExpandPond {
         if (pond[r][c] == 0)
             return;
         pond[r][c] = 0;
-        largestSize = Math.max(largestSize, size+1);
+        largestSize = Math.max(largestSize, size + 1);
         findLargestPond(pond, r + 1, c, size + 1);
         findLargestPond(pond, r - 1, c, size + 1);
         findLargestPond(pond, r, c + 1, size + 1);

@@ -1,11 +1,10 @@
 package src.Graphs;
 
-// Topological Sort using BFS is done using Kahn's Algorithm
-
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// Topological Sort using BFS is done using Kahn's Algorithm
 public class BFSTopologicalSort<T> extends src.Graphs.Graph<T> {
     public static void main(String[] args) {
         BFSTopologicalSort<String> g = new BFSTopologicalSort<>();

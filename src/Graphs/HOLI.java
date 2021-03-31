@@ -15,14 +15,11 @@ public class HOLI {
     private static int dfs(int node) {
         visited[node] = true;
         count[node] = 1;
-        int l = list[node].size();
-        for (int i = 0; i < l; i++) {
-            int dd = list[node].get(i).dest;
-            if (!visited[dd]) {
-                count[node] += dfs(dd);
-                int s = count[dd];
-                int eCost = list[node].get(i).weight;
-                ans += 2 * Math.min(s, n - s) * eCost;
+        for (Edge nbr : list[node]) {
+            if (!visited[nbr.dest]) {
+                count[node] += dfs(nbr.dest);
+                int s = count[nbr.dest];
+                ans += 2 * Math.min(s, n - s) * nbr.weight;
             }
         }
         return count[node];

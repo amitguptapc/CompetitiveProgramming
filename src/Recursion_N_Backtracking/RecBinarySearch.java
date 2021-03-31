@@ -16,7 +16,7 @@ public class RecBinarySearch {
             System.out.println("Found at index " + res);
     }
 
-    private static int search(int []a, int k, int low, int high) {
+    private static int search(int[] a, int k, int low, int high) {
         if (low <= high) {
             int mid = (low + high) / 2;
             if (a[mid] == k)

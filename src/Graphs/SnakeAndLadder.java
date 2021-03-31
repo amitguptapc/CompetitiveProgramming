@@ -25,21 +25,22 @@ public class SnakeAndLadder<T> extends src.Graphs.Graph<T> {
         board[32] = -2;
         board[34] = -22;
 
-        // draw the graphical structure of the board
+        // graphical structure of the board
         SnakeAndLadder<Integer> g = new SnakeAndLadder<>();
         for (int u = 1; u <= 36; u++) {
 
             // for every possible outcome of the dice
             for (int dice = 1; dice <= 6; dice++) {
 
-                // destination is source + dice outcome + effect of snake or ladder
+                // destination = source + dice outcome + effect of snake or ladder
                 if (dice + u <= 36) {
                     int v = u + dice + board[u + dice];
                     g.addEdge(u, v, false);
                 }
             }
         }
-        System.out.println("Minimum moves required is : " + g.minDistance(1, 36));
+        System.out.println("Minimum moves required is : " + g.minDistance(1, 36) + "\n");
+        g.printAdjList();
     }
 
     private int minDistance(T src, T dest) {

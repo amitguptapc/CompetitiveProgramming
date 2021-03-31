@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Scanner;
+import java.util.TreeSet;
 
 // Given a n*n board, with m number of horses
 // each horse can move in the top & left directions

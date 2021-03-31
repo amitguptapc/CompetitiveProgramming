@@ -16,6 +16,7 @@ public class OptimalGameStrategy1 {
             return Math.min(a1, a2);
         }
     }
+
     // true represents Piyush's turn
     // false represents Namit's turn
     public static void main(String[] args) {

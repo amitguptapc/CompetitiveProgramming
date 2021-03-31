@@ -58,7 +58,7 @@ public class KQuery {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter out =new BufferedWriter(new OutputStreamWriter(System.out));
+        BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
         int n = Integer.parseInt(br.readLine());
         a = new int[n];
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -72,7 +72,7 @@ public class KQuery {
             l = Integer.parseInt(st.nextToken());
             r = Integer.parseInt(st.nextToken());
             k = Integer.parseInt(st.nextToken());
-            out.write(query(0, n - 1, l - 1, r - 1, k, 1)+"\n");
+            out.write(query(0, n - 1, l - 1, r - 1, k, 1) + "\n");
         }
         out.flush();
     }

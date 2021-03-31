@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
+import java.util.TreeSet;
 
 public class GameOfStones {
     private static HashMap<Integer, Integer> map;

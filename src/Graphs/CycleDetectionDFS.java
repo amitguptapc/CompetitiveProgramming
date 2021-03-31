@@ -2,14 +2,14 @@ package src.Graphs;
 
 import java.util.ArrayList;
 
-// cycle is detected in undirected graph using dfs
+// cycle is detected in undirected graph using DFS
 public class CycleDetectionDFS<T> extends src.Graphs.Graph<T> {
     public static void main(String[] args) {
         CycleDetectionDFS<Integer> g = new CycleDetectionDFS<>();
         g.addEdge(1, 2, true);
         g.addEdge(3, 2, true);
         g.addEdge(3, 4, true);
-//        g.addEdge(1, 4, true);
+        g.addEdge(1, 4, true);
         System.out.println("Cycle is present : " + g.isCyclic());
     }
 

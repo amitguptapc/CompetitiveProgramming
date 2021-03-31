@@ -17,7 +17,7 @@ public class CountSetBits {
     private static int countSetBits2(int a) {
         int count = 0;
         while (a > 0) {
-            a = a & (a - 1);
+            a &= a - 1;
             count++;
         }
         return count;
@@ -27,7 +27,7 @@ public class CountSetBits {
     private static int countSetBits3(int a) {
         int count = 0;
         while (a > 0) {
-            a = a - (a & (-a));
+            a -= a & (-a);
             count++;
         }
         return count;
