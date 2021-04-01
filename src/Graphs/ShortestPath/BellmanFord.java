@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 // Complexity O(VE)
+// Works for negative weight edges
+// Works on Directed Graph
 public class BellmanFord {
     private static final int INFINITY = Integer.MAX_VALUE;
 
@@ -44,7 +46,7 @@ public class BellmanFord {
         }
 
         void addEdge(T u, T v, int weight) {
-            edges.add(new Edge<T>(u, v, weight));
+            edges.add(new Edge<>(u, v, weight));
             vertices.add(u);
             vertices.add(v);
         }
