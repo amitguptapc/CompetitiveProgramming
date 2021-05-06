@@ -8,11 +8,11 @@ public class TilingProblem2 {
         while (t-- > 0) {
             n = sc.nextInt();
             m = sc.nextInt();
-            System.out.println(waysofTiling(n, m));
+            System.out.println(waysOfTiling(n, m));
         }
     }
 
-    private static int waysofTiling(int n, int m) {
+    private static int waysOfTiling(int n, int m) {
         int[] ans = new int[n + 1];
         ans[0] = 0;
         for (int i = 1; i <= n; i++) {

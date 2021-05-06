@@ -1,24 +1,21 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.TreeSet;
+import java.util.*;
 
 public class DijkstraAlgo {
     private static void dijkstra(int n, ArrayList<Edge>[] adj, int src) {
         int[] distances = new int[n];
         Arrays.fill(distances, Integer.MAX_VALUE);
         distances[src] = 0;
-        TreeSet<Edge> set = new TreeSet<Edge>((o1, o2) -> o1.cost - o2.cost);
-        set.add(new Edge(src, 0));
-        while (!set.isEmpty()) {
-            Edge e = set.pollFirst();
-            int node = e.node;
-            int dist = e.cost;
-            for (Edge ed : adj[node]) {
-                if (dist + ed.cost < distances[ed.node]) {
-                    distances[ed.node] = dist + ed.cost;
-                    set.remove(new Edge(ed.node, distances[ed.node]));
-                    set.add(new Edge(ed.node, distances[ed.node]));
+        PriorityQueue<Edge> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o.cost));
+        pq.add(new Edge(src, 0));
+        while (!pq.isEmpty()) {
+            Edge top = pq.poll();
+            int node = top.node;
+            int dist = top.cost;
+            for (Edge nbr : adj[node]) {
+                if (dist + nbr.cost < distances[nbr.node]) {
+                    pq.remove(new Edge(nbr.node, distances[nbr.node]));
+                    distances[nbr.node] = dist + nbr.cost;
+                    pq.add(new Edge(nbr.node, distances[nbr.node]));
                 }
             }
         }

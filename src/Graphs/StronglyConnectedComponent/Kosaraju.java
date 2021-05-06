@@ -1,79 +1,80 @@
 package Graphs.StronglyConnectedComponent;
 
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.Map;
+import java.util.Stack;
 
-// check whether a graph is strongly connected or not
+// Find all components in a directed Graph
+// Complexity O(V+E)
 public class Kosaraju {
+    public LinkedList<Integer>[] adjList, revList;
+    public boolean[] visited;
+    public Stack<Integer> stk;
+    public int v;
+
+    Kosaraju(int n) {
+        this.v = n;
+        adjList = new LinkedList[v];
+        revList = new LinkedList[v];
+        visited = new boolean[v];
+        stk = new Stack<>();
+        for (int i = 0; i < v; i++) {
+            this.adjList[i] = new LinkedList<>();
+            this.revList[i] = new LinkedList<>();
+        }
+    }
+
+    public void addEdge(int u, int v) {
+        adjList[u].add(v);
+        revList[v].add(u);
+    }
+
+    void dfsF(int node) {
+        visited[node] = true;
+        for (int neighbour : adjList[node]) {
+            if (!visited[neighbour])
+                dfsF(neighbour);
+        }
+        stk.push(node);
+    }
+
+    void dfsR(int node) {
+        System.out.print(node + " ");
+        visited[node] = true;
+        for (int neighbour : revList[node]) {
+            if (!visited[neighbour])
+                dfsR(neighbour);
+        }
+    }
+
+    void getSCC() {
+        for (int i = 0; i < v; i++)
+            if (!visited[i])
+                dfsF(i);
+
+        Arrays.fill(visited, false);
+        System.out.println("Strongly connected components are :");
+        while (!stk.isEmpty()) {
+            int top = stk.pop();
+            if (!visited[top]) {
+                dfsR(top);
+                System.out.println();
+            }
+        }
+    }
+
     public static void main(String[] args) {
-        Graph g = new Graph(5);
+        Kosaraju g = new Kosaraju(8);
         g.addEdge(0, 1);
         g.addEdge(1, 2);
         g.addEdge(2, 3);
-        g.addEdge(3, 0);
-        g.addEdge(2, 4);
-//        g.addEdge(4, 2);
-        System.out.println(g.isStronglyConnected());
-    }
-
-    static class Graph {
-        public Map<Integer, LinkedList<Integer>> adjList;
-        private int n;
-
-        Graph(int n) {
-            this.n = n;
-            adjList = new HashMap<>();
-            for (int i = 1; i <= n; i++)
-                this.adjList.put(i, new LinkedList<>());
-        }
-
-        public void addEdge(int u, int v) {
-            LinkedList<Integer> l1;
-            if (!adjList.containsKey(u)) {
-                l1 = new LinkedList<>();
-                adjList.put(u, l1);
-            } else
-                l1 = adjList.get(u);
-            l1.add(v);
-            if (!adjList.containsKey(v)) {
-                adjList.put(v, new LinkedList<>());
-            }
-        }
-
-        Graph transpose() {
-            Graph g = new Graph(n);
-            for (int node : adjList.keySet()) {
-                for (int node1 : adjList.get(node)) {
-                    g.addEdge(node1, node);
-                }
-            }
-            return g;
-        }
-
-        void dfs(int node, boolean[] visited) {
-            visited[node] = true;
-            for (int neighbour : adjList.get(node)) {
-                if (!visited[neighbour])
-                    dfs(neighbour, visited);
-            }
-        }
-
-        boolean isStronglyConnected() {
-            boolean[] visited = new boolean[n];
-            dfs(0, visited);
-            // check all vertices are visited or not
-            for (int i = 0; i < n; i++)
-                if (!visited[i])
-                    return false;
-            // create transpose of the graph
-            Graph g = transpose();
-            visited = new boolean[n];
-            g.dfs(0, visited);
-            for (int i = 0; i < n; i++)
-                if (!visited[i])
-                    return false;
-            return true;
-        }
+        g.addEdge(2, 0);
+        g.addEdge(4, 5);
+        g.addEdge(3, 4);
+        g.addEdge(4, 7);
+        g.addEdge(5, 6);
+        g.addEdge(6, 4);
+        g.addEdge(6, 7);
+        g.getSCC();
     }
 }
