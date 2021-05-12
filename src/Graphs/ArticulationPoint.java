@@ -65,11 +65,11 @@ public class ArticulationPoint {
 
     public static void main(String[] args) {
         ArticulationPoint g = new ArticulationPoint(5);
-        g.addEdge(0,2);
-        g.addEdge(0,3);
-        g.addEdge(1,0);
-        g.addEdge(1,2);
-        g.addEdge(3,4);
+        g.addEdge(0, 2);
+        g.addEdge(0, 3);
+        g.addEdge(1, 0);
+        g.addEdge(1, 2);
+        g.addEdge(3, 4);
         g.findAP();
     }
 }

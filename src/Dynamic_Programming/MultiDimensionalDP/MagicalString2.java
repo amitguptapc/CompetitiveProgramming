@@ -1,9 +1,9 @@
 package Dynamic_Programming.MultiDimensionalDP;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class MagicalString1 {
-    private static final long mod = 1000000007;
+public class MagicalString2 {
     private static char[] s;
     private static int[] f;
     private static int n;
@@ -16,13 +16,15 @@ public class MagicalString1 {
         return true;
     }
 
-    private static long solve() {
-        long[] dp = new long[n + 1];
-        dp[0] = dp[1] = 1;
+    private static int solve() {
+        int[] dp = new int[n + 1];
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        dp[0] = 0;
+        dp[1] = 1;
         for (int i = 2; i <= n; i++) {
             for (int j = i; j >= 1; j--) {
                 if (isValid(j - 1, i - 1))
-                    dp[i] = (dp[i] % mod + dp[j - 1] % mod) % mod;
+                    dp[i] = Math.min(dp[j - 1] + 1, dp[i]);
             }
         }
         return dp[n];

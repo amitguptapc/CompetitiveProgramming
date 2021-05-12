@@ -1,6 +1,8 @@
 package Dynamic_Programming.OneDimensionalDP;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 // https://www.hackerearth.com/practice/algorithms/dynamic-programming/state-space-reduction/practice-problems/algorithm/bytelandian-gold-coins/
 // Based on state space reduction

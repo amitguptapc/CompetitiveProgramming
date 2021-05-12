@@ -1,17 +1,11 @@
 package BitmaskDP;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 
-/**
- * Author : AMIT KUMAR GUPTA
- * e-mail : amitguptapc@gmail.com
- * Date : 08/10/19
- * Time : 12:11 PM
- * Problem Code : TSHIRTS
- * Platform : CodeChef
- */
-
+// https://www.codechef.com/problems/TSHIRTS
 public class TSHIRTS {
 
     private static long MOD = 1000000007;
@@ -24,19 +18,23 @@ public class TSHIRTS {
             return 1;
         if (tid == 101) // if all T-shirts are exhausted
             return 0;
+
         if (dp[mask][tid] != -1)
             return dp[mask][tid];
+
         long ans = solve(mask, tid + 1) % MOD; // if current T-shirt is not given to anyone
         for (int p : map.get(tid)) {
             if ((mask & (1 << p)) == 0)
                 ans = (ans + solve(mask | (1 << p), tid + 1)) % MOD;
         }
+
         return dp[mask][tid] = ans;
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
+
         while (t-- > 0) {
             int n = Integer.parseInt(br.readLine());
             allGot = (1 << n) - 1;
@@ -51,10 +49,12 @@ public class TSHIRTS {
                     l.add(k);
                 }
             }
+
             dp = new long[(1 << n) + 1][101];
             for (int i = 0; i <= 1 << n; i++)
                 for (int j = 0; j <= 100; j++)
                     dp[i][j] = -1;
+
             System.out.println(solve(0, 1));
         }
     }

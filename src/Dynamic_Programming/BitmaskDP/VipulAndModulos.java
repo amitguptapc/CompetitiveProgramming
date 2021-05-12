@@ -1,160 +1,48 @@
 package BitmaskDP;
 
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStreamWriter;
-import java.util.InputMismatchException;
+import java.util.Scanner;
 
-// // https://codeforces.com/problemset/problem/401/D
+// https://codeforces.com/problemset/problem/401/D
 public class VipulAndModulos {
-
-    private static long MOD = 1000000007;
-
-    // begin of solution
-    private static int m;
-    private static String n;
-    private static long[][] dp = new long[(1 << 19) + 1][101];
+    private static int m, l;
+    private static char[] n;
+    private static long[][] dp;
 
     private static long solve(int mask, int mod) {
-        if (mask == (1 << n.length()) - 1)
+        if (mask == (1 << l) - 1)
             return mod == 0 ? 1 : 0;
+
         if (dp[mask][mod] != -1)
             return dp[mask][mod];
+
         long ans = 0;
         boolean[] active = new boolean[10];
-        for (int i = 0; i < n.length(); i++) {
-            if (n.charAt(i) == '0' && mask == 0)
+        for (int i = 0; i < l; i++) {
+            if (n[i] == '0' && mask == 0)
                 continue;
-            if ((mask & (1 << i)) == 0 && !active[n.charAt(i) - '0']) {
-                ans += solve(mask | (1 << i), (mod * 10 + (n.charAt(i) - '0')) % m);
-                active[n.charAt(i) - '0'] = true;
+            if ((mask & (1 << i)) == 0 && !active[n[i] - '0']) {
+                ans += solve(mask | (1 << i), (mod * 10 + (n[i] - '0')) % m);
+                active[n[i] - '0'] = true;
             }
         }
+
         return dp[mask][mod] = ans;
     }
 
-    public static void main(String[] args) throws IOException {
-        AmitScan sc = new AmitScan();
-        AmitPrint pr = new AmitPrint();
-        int t = sc.si();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
         while (t-- > 0) {
-            n = sc.s();
-            m = sc.si();
-            for (int i = 0; i <= (1 << 19); i++)
-                for (int j = 0; j < 101; j++)
+            n = sc.next().toCharArray();
+            m = sc.nextInt();
+            l = n.length;
+
+            dp = new long[(1 << l) + 1][m + 1];
+            for (int i = 0; i <= (1 << l); i++)
+                for (int j = 0; j <= m; j++)
                     dp[i][j] = -1;
-            pr.pl(solve(0, 0));
-        }
-        pr.close();
-    }
-    // end of solution
 
-    static class AmitScan {
-        private byte[] buf = new byte[1024]; // Buffer of Bytes
-        private int index;
-        private InputStream in;
-        private int total;
-
-        AmitScan() {
-            in = System.in;
-        }
-
-        private int scan() throws IOException // Scan method used to scan buf
-        {
-            if (total < 0)
-                throw new InputMismatchException();
-            if (index >= total) {
-                index = 0;
-                total = in.read(buf);
-                if (total <= 0)
-                    return -1;
-            }
-            return buf[index++];
-        }
-
-        String s() throws IOException {
-            StringBuilder sb = new StringBuilder();
-            int n = scan();
-            while (isWhiteSpace(n))
-                n = scan();
-            while (!isWhiteSpace(n)) {
-                sb.append((char) n);
-                n = scan();
-            }
-            return sb.toString();
-        }
-
-        int si() throws IOException {
-            int integer = 0;
-            int n = scan();
-            while (isWhiteSpace(n)) // Removing starting whitespaces
-                n = scan();
-            int neg = 1;
-            if (n == '-') // If Negative Sign encounters
-            {
-                neg = -1;
-                n = scan();
-            }
-            while (!isWhiteSpace(n)) {
-                if (n >= '0' && n <= '9') {
-                    integer *= 10;
-                    integer += n - '0';
-                    n = scan();
-                } else
-                    throw new InputMismatchException();
-            }
-            return neg * integer;
-        }
-
-        long sl() throws IOException {
-            long integer = 0;
-            int n = scan();
-            while (isWhiteSpace(n))
-                n = scan();
-            int neg = 1;
-            if (n == '-') {
-                neg = -1;
-                n = scan();
-            }
-            while (!isWhiteSpace(n)) {
-                if (n >= '0' && n <= '9') {
-                    integer *= 10;
-                    integer += n - '0';
-                    n = scan();
-                } else
-                    throw new InputMismatchException();
-            }
-            return neg * integer;
-        }
-
-        private boolean isWhiteSpace(int n) {
-            return n == ' ' || n == '\n' || n == '\r' || n == '\t' || n == -1;
-        }
-    }
-
-    static class AmitPrint {
-        private final BufferedWriter bw;
-
-        AmitPrint() {
-            this.bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        }
-
-        private void p(Object object) throws IOException {
-            bw.append("").append(String.valueOf(object));
-        }
-
-        void pl(Object object) throws IOException {
-            p(object);
-            bw.append("\n");
-        }
-
-        void close() throws IOException {
-            bw.close();
-        }
-
-        void f() throws IOException {
-            bw.flush();
+            System.out.println(solve(0, 0));
         }
     }
 }

@@ -2,8 +2,7 @@ package Dynamic_Programming.MultiDimensionalDP;
 
 import java.util.Scanner;
 
-public class MagicalString1 {
-    private static final long mod = 1000000007;
+public class MagicalString3 {
     private static char[] s;
     private static int[] f;
     private static int n;
@@ -16,16 +15,15 @@ public class MagicalString1 {
         return true;
     }
 
-    private static long solve() {
-        long[] dp = new long[n + 1];
-        dp[0] = dp[1] = 1;
-        for (int i = 2; i <= n; i++) {
-            for (int j = i; j >= 1; j--) {
-                if (isValid(j - 1, i - 1))
-                    dp[i] = (dp[i] % mod + dp[j - 1] % mod) % mod;
+    private static int solve() {
+        int max = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                if (isValid(i, j))
+                    max = Math.max(max, j - i + 1);
             }
         }
-        return dp[n];
+        return max;
     }
 
     public static void main(String[] args) {

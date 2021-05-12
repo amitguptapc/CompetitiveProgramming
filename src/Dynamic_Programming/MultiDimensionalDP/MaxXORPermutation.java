@@ -47,7 +47,7 @@ public class MaxXORPermutation {
                         for (int l = 0; l <= 10; l++)
                             dp[i][j][k][l] = -1;
 
-                System.out.println(Long.toBinaryString(getMax(0, b1, b2, b3)));
+            System.out.println(Long.toBinaryString(getMax(0, b1, b2, b3)));
         }
     }
 }
